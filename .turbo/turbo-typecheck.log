@@ -1,0 +1,20 @@
+yarn run v1.22.19
+$ tsc --pretty
+[96msrc/Form.tsx[0m:[93m25[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '<TFieldValues extends FieldValues, TContext>(values: TFieldValues, context: TContext | undefined, options: ResolverOptions<TFieldValues>) => Promise<...>' is not assignable to type 'Resolver<TypeOf<T>, any>'.
+  Types of parameters 'options' and 'options' are incompatible.
+    Type 'import("/Users/nikoemme/lensshare-webApp/packages/ui/node_modules/react-hook-form/dist/types/resolvers").ResolverOptions<Zod.TypeOf<T>>' is not assignable to type 'import("/Users/nikoemme/lensshare-webApp/node_modules/react-hook-form/dist/types/resolvers").ResolverOptions<Zod.TypeOf<T>>'.
+      Types of property 'names' are incompatible.
+        Type 'import("/Users/nikoemme/lensshare-webApp/packages/ui/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>[] | undefined' is not assignable to type 'import("/Users/nikoemme/lensshare-webApp/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>[] | undefined'.
+          Type 'import("/Users/nikoemme/lensshare-webApp/packages/ui/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>[]' is not assignable to type 'import("/Users/nikoemme/lensshare-webApp/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>[]'.
+            Type 'import("/Users/nikoemme/lensshare-webApp/packages/ui/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>' is not assignable to type 'import("/Users/nikoemme/lensshare-webApp/node_modules/react-hook-form/dist/types/fields").FieldName<Zod.TypeOf<T>>'.
+              Type 'string | Extract<keyof TypeOf<T>, string>' is not assignable to type 'FieldName<TypeOf<T>>'.
+                Type 'string' is not assignable to type 'FieldName<TypeOf<T>>'.
+
+[7m25[0m     resolver: zodResolver(schema)
+[7m  [0m [91m    ~~~~~~~~[0m
+
+
+Found 1 error in src/Form.tsx[90m:25[0m
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

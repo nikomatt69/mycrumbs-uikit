@@ -1,0 +1,30 @@
+
+> @lensshare/ui@0.0.0 prettier:fix /Users/nikoemme/Downloads/LensShare-2.0/packages/ui
+> prettier --write "**/*.{js,ts,tsx,md}"  --cache
+
+.eslintrc.js 298ms
+cn.ts 32ms
+index.ts 22ms
+src/Alert.tsx 72ms
+src/Button.tsx 112ms
+src/Card.tsx 71ms
+src/Checkbox.tsx 10ms
+src/EmptyState.tsx 12ms
+src/ErrorMessage.tsx 25ms
+src/Form.tsx 56ms
+src/GridLayout.tsx 34ms
+src/HelpTooltip.tsx 18ms
+src/Image.tsx 28ms
+src/Input.tsx 33ms
+src/LightBox.tsx 30ms
+src/Modal.tsx 37ms
+src/PageLoading.tsx 16ms
+src/Radio.tsx 13ms
+src/Select.tsx 14ms
+src/Spinner.tsx 16ms
+src/TabButton.tsx 11ms
+src/TextArea.tsx 11ms
+src/Toggle.tsx 12ms
+src/Tooltip.tsx 8ms
+src/WarningMessage.tsx 9ms
+tailwind-preset.ts 8ms

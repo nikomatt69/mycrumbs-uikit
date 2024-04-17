@@ -1,0 +1,6 @@
+
+> @lensshare/ui@0.0.0 prettier /Users/nikoemme/Downloads/LensShare-2.0/packages/ui
+> prettier --check "**/*.{js,ts,tsx,md}"  --cache
+
+Checking formatting...
+All matched files use Prettier code style!
