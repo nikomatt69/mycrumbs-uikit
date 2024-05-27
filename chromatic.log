@@ -1,0 +1,64 @@
+19:37:46.399  Chromatic CLI v11.4.1
+              https://www.chromatic.com/docs/cli 
+ 
+19:37:46.404  Authenticating with Chromatic 
+19:37:46.404      → Connecting to https://index.chromatic.com
+19:37:47.368  Authenticated with Chromatic
+                  → Using project token '****************6c80'
+19:37:47.369  Retrieving git information
+19:37:47.394      → ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+              Chromatic only works from inside a Git repository.
+
+19:37:47.398  ✖ Failed to retrieve git information
+              ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+              Chromatic only works from inside a Git repository.
+              → View the full stacktrace below
+              
+              If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
+              You can also email the team at support@chromatic.com if chat is not an option.
+              
+              Please provide us with the above CLI output and the following info:
+              {
+                "timestamp": "2024-05-27T19:37:47.395Z",
+                "sessionId": "700f2500-4949-4482-89c2-738e50803b17",
+                "nodePlatform": "darwin",
+                "nodeVersion": "19.9.0",
+                "packageName": "chromatic",
+                "packageVersion": "11.4.1",
+                "flags": {
+                  "outputDir": [],
+                  "storybookBuildDir": [],
+                  "externals": [],
+                  "onlyStoryFiles": [],
+                  "onlyStoryNames": [],
+                  "untraced": [],
+                  "fileHashing": true,
+                  "interactive": true,
+                  "appCode": []
+                },
+                "configuration": {
+                  "configFile": "chromatic.config.json",
+                  "projectId": "Project:chpt_5c2c8d5cb406c80",
+                  "debug": true,
+                  "zip": true,
+                  "buildScriptName": "build-storybook",
+                  "storybookBuildDir": "storybook-static",
+                  "storybookBaseDir": "@lensshare/ui"
+                },
+                "buildScript": "storybook build",
+                "exitCode": 0,
+                "exitCodeKey": "OK",
+                "errorType": "Error",
+                "errorMessage": "✖ Failed to retrieve git information"
+              }
+              
+              Error: ✖ Failed to retrieve git information
+              ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+              Chromatic only works from inside a Git repository.
+                  at Yi (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:116:189)
+                  at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                  at async gm (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:116:660)
+                  at async Khe (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:804:81)
+                  at async $In (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:913:138)
+                  at async QW.task (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:289:6996)
+19:37:48.755  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
