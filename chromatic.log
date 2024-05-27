@@ -1,64 +1,98 @@
-19:37:46.399  Chromatic CLI v11.4.1
+19:52:35.875  Chromatic CLI v11.4.1
               https://www.chromatic.com/docs/cli 
  
-19:37:46.404  Authenticating with Chromatic 
-19:37:46.404      → Connecting to https://index.chromatic.com
-19:37:47.368  Authenticated with Chromatic
+19:52:35.882  Authenticating with Chromatic 
+19:52:35.883      → Connecting to https://index.chromatic.com
+19:52:44.055  Could not retrieve package info from registry; skipping update check
+19:52:44.055  undefined
+19:52:45.172  Authenticated with Chromatic
                   → Using project token '****************6c80'
-19:37:47.369  Retrieving git information
-19:37:47.394      → ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-              Chromatic only works from inside a Git repository.
-
-19:37:47.398  ✖ Failed to retrieve git information
-              ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-              Chromatic only works from inside a Git repository.
-              → View the full stacktrace below
+19:52:45.173  Retrieving git information
+19:52:45.231  ✖ Found only one commit
+              This typically means you have ran into one of the following scenarios:
+              - You've checked out a shallow copy of the Git repository, which some CI systems do by default.
+                In order for Chromatic to correctly determine baseline commits, we need access to the full Git history graph.
+                Refer to your CI provider's documentation for details.
+              - You've only made a single commit so far.  
+                Please make at least one additional commit in order for Chromatic to be able to detect what's changed.
+19:52:45.231  git info: {"commit":{"commit":"57931e7785d5f6edcf65cc6e336baef3eb0281f1","committedAt":1716838797000,"committerEmail":"nicola.mattioli.95@gmail.com","committerName":"nikomatt69"},"branch":"57931e7","fromCI":false}
+19:53:13.472  App firstBuild: %o, lastBuild: %o {"committedAt":1714927575000} null
+19:53:13.473  step: checking 20 up to 1714927575
+19:53:13.473  step: commitsWithBuilds:
+19:53:13.473  step: commitsWithoutBuilds:
+19:53:13.473  running git rev-list HEAD       --since 1714927575       -n 20 --not
+19:53:13.505  command output: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:13.505  step: candidateCommits: 57931e7785d5f6edcf65cc6e336baef3eb0281f1, visitedCommitsWithoutBuilds: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.114  step: newCommitsWithBuilds: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.114  step: checking 40 up to 1714927575
+19:53:15.114  step: commitsWithBuilds: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.114  step: commitsWithoutBuilds:
+19:53:15.114  running git rev-list HEAD       --since 1714927575       -n 40 --not 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.133  command output:
+19:53:15.133  step: candidateCommits: , visitedCommitsWithoutBuilds:
+19:53:15.133  step: no candidateCommits; we are done
+19:53:15.638  Final commitsWithBuilds: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.638  running git rev-list 57931e7785d5f6edcf65cc6e336baef3eb0281f1 --not "57931e7785d5f6edcf65cc6e336baef3eb0281f1^@"
+19:53:15.655  command output: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:15.655  Found parentCommits: 57931e7785d5f6edcf65cc6e336baef3eb0281f1
+19:53:16.582  Retrieved git information
+                  → Commit '57931e7' on branch '57931e7'; found 1 parent build
+19:53:16.582  Collecting Storybook metadata
+19:53:16.585  {}
+19:53:16.586  Collected Storybook metadata
+                  → ; no supported addons found
+19:53:16.586  Initializing build
+19:53:16.588  Got environment:
+              {}
+19:53:19.769  Initialized build
+                  → Build 22 initialized
+19:53:19.770  Publish your built Storybook
+19:53:19.770      → Validating Storybook files
+19:53:19.778  Publishing your built Storybook
+19:53:19.778      → Calculating file hashes
+19:53:19.798  Calculated file hashes in 20ms
+19:53:19.799  Publishing your built Storybook
+19:53:19.799      → Starting publish
+19:53:19.800  Running uploadBuild batch 1 / 1
+19:53:24.325  No new files to upload, continuing
+19:53:24.326  Publishing your built Storybook
+19:53:24.326      → Finalizing upload
+19:53:24.326  Waiting for 'files-copied.695717340.txt' sentinel file to appear at https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-dvgdtgrtoa/.chromatic/files-copied.695717340.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T195324Z&X-Amz-Expires=1800&X-Amz-Signature=099f971163b4debd2f93cafea802f8296e4cf883ebf34646844586575a53df10&X-Amz-SignedHeaders=host&x-id=GetObject
+19:53:27.361  Sentinel file 'files-copied.695717340.txt' OK.
+19:53:27.365  Publish complete
+                  → No new files to upload
+19:53:27.365  Verifying your Storybook
+19:53:27.365      → This may take a few minutes
+19:53:33.452  ✔ Storybook published
+              We found 13 components with 42 stories.
+              ℹ View your Storybook at https://663a6564311e0ec20c42bab9-dvgdtgrtoa.chromatic.com/
+19:53:33.452  Started build 22
+                  → View build details at https://www.chromatic.com/build?appId=663a6564311e0ec20c42bab9&number=22
+19:53:33.452  Running 42 tests
+19:53:33.452      → This may take a few minutes
+19:53:34.397      → [                    ] 1/42  Button › Template
+19:53:38.334      → [=                   ] 3/42  Button › With Icon
+19:53:40.226      → [===                 ] 7/42  Card › Template
+19:53:41.796      → [====                ] 9/42  Card › With Custom Element
+19:53:43.890      → [======              ] 12/42  CardContainer › Interactive 3 D
+19:53:45.421      → [=======             ] 15/42  Grid › Custom Spacing
+19:53:47.322      → [========            ] 16/42  Help Tooltip › Template
+19:53:49.182      → [==========          ] 20/42  Image › Custom Icon Size
+19:53:50.703      → [==========          ] 22/42  Input › Template
+19:53:52.612      → [===========         ] 24/42  Input › With Prefix And Icons
+19:53:54.719      → [=============       ] 28/42  Select Dropdown › Custom Style
+19:53:56.240      → [==============      ] 29/42  Spinner › Template
+19:53:58.280      → [===============     ] 32/42  Spinner › Large Danger
+19:53:59.845      → [=================   ] 35/42  TextArea › Default
+19:54:01.519      → [=================== ] 39/42  Toggle Switch › Default
+19:54:05.090      → [====================] 42/42  Tooltip › Template
+19:54:07.664      → [====================] 43/42
+19:54:09.486  ✖ Found 42 visual changes: Review the changes at https://www.chromatic.com/build?appId=663a6564311e0ec20c42bab9&number=22
               
-              If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
-              You can also email the team at support@chromatic.com if chat is not an option.
-              
-              Please provide us with the above CLI output and the following info:
-              {
-                "timestamp": "2024-05-27T19:37:47.395Z",
-                "sessionId": "700f2500-4949-4482-89c2-738e50803b17",
-                "nodePlatform": "darwin",
-                "nodeVersion": "19.9.0",
-                "packageName": "chromatic",
-                "packageVersion": "11.4.1",
-                "flags": {
-                  "outputDir": [],
-                  "storybookBuildDir": [],
-                  "externals": [],
-                  "onlyStoryFiles": [],
-                  "onlyStoryNames": [],
-                  "untraced": [],
-                  "fileHashing": true,
-                  "interactive": true,
-                  "appCode": []
-                },
-                "configuration": {
-                  "configFile": "chromatic.config.json",
-                  "projectId": "Project:chpt_5c2c8d5cb406c80",
-                  "debug": true,
-                  "zip": true,
-                  "buildScriptName": "build-storybook",
-                  "storybookBuildDir": "storybook-static",
-                  "storybookBaseDir": "@lensshare/ui"
-                },
-                "buildScript": "storybook build",
-                "exitCode": 0,
-                "exitCodeKey": "OK",
-                "errorType": "Error",
-                "errorMessage": "✖ Failed to retrieve git information"
-              }
-              
-              Error: ✖ Failed to retrieve git information
-              ✖ Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-              Chromatic only works from inside a Git repository.
-                  at Yi (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:116:189)
-                  at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-                  at async gm (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:116:660)
-                  at async Khe (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:804:81)
-                  at async $In (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:913:138)
-                  at async QW.task (/Users/nikoemme/ui/node_modules/chromatic/dist/chunk-UOK6J4H2.js:289:6996)
-19:37:48.755  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
+              ℹ For CI/CD use cases, this command failed with exit code 1
+              Pass --exit-zero-on-changes to succeed this command regardless of changes.
+              Pass --auto-accept-changes to succeed and automatically accept any changes.
+19:54:09.486  Build 22 completed
+                  → Tested 42 stories across 13 components; captured 42 snapshots in 36 seconds
+19:54:09.488  Tasks completed
+19:54:09.513  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json

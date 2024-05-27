@@ -23,7 +23,7 @@ export default {
     icon: {
       control: 'boolean',
       mapping: {
-        true: <CheckCircleIcon className='h-3 w-3' />,
+        true: <CheckCircleIcon className='h-4 w-4' />,
         false: null
       },
       defaultValue: false,
@@ -40,6 +40,13 @@ export default {
 } as Meta;
 
 export const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
+Template.args = {
+  variant : 'primary',
+  children: 'Click',
+  outline: false,
+  size: 'sm'
+
+};
 
 
 export const Default: StoryFn<typeof Button> = (args) => <Button {...args} />;
@@ -47,7 +54,7 @@ export const Default: StoryFn<typeof Button> = (args) => <Button {...args} />;
 Default.args = {
   variant : 'primary',
   children: 'Click Me',
-  outline: true,
+  outline: false,
   size: 'md'
 
 };

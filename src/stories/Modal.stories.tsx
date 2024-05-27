@@ -1,112 +1,86 @@
-import React from 'react';
-import { Fragment } from 'react';
-import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react';
-import { XMarkIcon } from '@heroicons/react/24/outline';
-import { ArgTypes, Args, Meta, StoryFn } from '@storybook/react/*';
-import { Modal } from '../Modal';
-import cn from '../../cn';
+import React, { useEffect, useState } from 'react';
+import { Meta, StoryContext, StoryFn } from '@storybook/react';
+import { Modal } from '../Modal';  // Adjust the import path as necessary
+import { XMarkIcon, InformationCircleIcon } from '@heroicons/react/24/outline';
 import { EnvelopeClosedIcon, ExclamationTriangleIcon } from '@radix-ui/react-icons';
-
+import { fn } from '@storybook/test';
+import { action } from '@storybook/addon-actions';
+import { CardBody } from '../3DCard';
+import { Card } from '../Card';
 
 export default {
   title: 'Components/Modal',
   component: Modal,
+  decorators: [
+    (Story) => (
+      <div className="app-background">
+        <Story />
+      </div>
+    )
+  ],
   argTypes: {
-    show: { control: 'boolean' },
-    size: {
-      control: { type: 'select', options: ['lg', 'md', 'sm', 'xs'] },
+    show: {
+      control: 'boolean',
+      defaultValue: false,
+      description: 'Controls the visibility of the modal.'
     },
-    title: { control: 'text' },
-    children: { control: 'text' },
-  } as Partial<ArgTypes<Args>>,
-} as Meta;
-export const Template: StoryFn<React.ComponentProps<typeof Modal>> = (args) => <Modal   {...args}>
-     <Transition show={args.show} as={Fragment}>
-      <Dialog open={args.show}      
-        as="div"
-        className="fixed inset-0 z-10 overflow-y-auto"
-        onClose={() => args.onClose?.()}
+    size: {
+      control: { type: 'select', options: ['xs', 'sm', 'md', 'lg'] },
+      defaultValue: 'sm',
+      description: 'Sets the size of the modal based on predefined sizes.'
+    },
+    icon: {
+      control: { type: 'select', options: ['none', 'XMark', 'Info', 'Warning'] },
+      mapping: {
+        none: null,
+        XMark: <XMarkIcon className="h-5 w-5 text-blue-500" />,
+        Info: <InformationCircleIcon className="h-5 w-5 text-green-500" />,
+        Warning: <ExclamationTriangleIcon className="h-5 w-5 text-red-500" />
+      },
+      defaultValue: 'none',
+      description: 'Select an icon to display in the modal header.'
+    },
+    title: {
+      control: 'text',
+      defaultValue: 'Default Title',
+      description: 'The title displayed in the modal header.'
+    },
+    children: {
+      control: 'text',
+      defaultValue: 'Content goes here.',
+      description: 'The content of the modal, can be text or more complex JSX.'
+    },
+    onClose: {
+      action: 'onClose',
+      control: 'boolean',
+      description: 'Function that will be called when the modal is requested to close.'
+    },
+  },
+  tags: ['autodocs'],
+} as Meta
 
-      >
-        <div className="flex min-h-screen items-center justify-center p-4 text-center sm:block sm:p-0">
-          <TransitionChild
-            as={Fragment}
-            enter="ease-out duration-100"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <DialogPanel className="fixed inset-0 bg-gray-500/75 transition-opacity dark:bg-gray-900/80" />
-          </TransitionChild>
-          <span
-            className="hidden sm:inline-block sm:h-screen sm:align-middle"
-            aria-hidden="true"
-          />
-          <TransitionChild
-            as={Fragment}
-            enter="ease-out duration-100"
-            enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-            enterTo="opacity-100 translate-y-0 sm:scale-100"
-            leave="ease-in duration-100"
-            leaveFrom="opacity-100 translate-y-0 sm:scale-100"
-            leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-          >
-            <div
-              className={cn(
-                { 'sm:max-w-5xl': args.size === 'lg' },
-                { 'sm:max-w-3xl': args.size === 'md' },
-                { 'sm:max-w-lg': args.size === 'sm' },
-                { 'sm:max-w-sm': args.size === 'xs' },
-                'inline-block w-full p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white dark:bg-gray-800 shadow-xl rounded-2xl'
-              )}
-            >
-              <div className="flex items-center justify-between">
-                <DialogTitle as="h3" className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-100">
-                  {args.icon && args.icon}
-                  {args.title}
-                </DialogTitle>
-                <button
-                  type="button"
-                  className="p-2 -m-2 text-gray-400 bg-white rounded-full dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
-                  onClick={args.onClose}
-                >
-                  <span className="sr-only">Close</span>
-                  <XMarkIcon className="h-5 w-5" aria-hidden="true" />
-                </button>
-              </div>
-              <div className="mt-2">
-                {args.children}
-              </div>
-            </div>
-           
-          </TransitionChild>
-        </div>
-      </Dialog>
-    </Transition>
-</Modal>;
+export const Template: StoryFn<React.ComponentProps<typeof Modal>> = (args) => <Modal   {...args}/>
+  // Handle the onClose to toggle the visibility of the modal
+Template.args = {
+    show: false,
+    title: 'Default Modal',
+    children: <p className='p-3'>This is a default modal with minimal content.</p>,
+    onClose: () => {
+      action('onClose')({ show: false });
+        // Toggle visibility off when modal is closed
+    }
+};
+  
 
-export const Default = Template.bind({});
+
+
+export const Default: StoryFn<React.ComponentProps<typeof Modal>> = (args) => <Card><Modal   {...args}/></Card>
 Default.args = {
-  show: true,
-  size: 'sm',
-  title: 'Modal Title',
-  children: <div>Modal Content</div>,
-  onClose: () => alert('Closed'),
+  show: false,
+  title: 'Default Modal',
+  children: <p className='p-3'>This is a default modal with minimal content.</p>,
+  onClose: () => console.log('Modal closed'),
 };
-
-
-
-export const NoTitle = Template.bind({});
-NoTitle.args = {
-  show: true,
-  size: 'sm',
-  children: <div>Modal Content without title</div>,
-  onClose: () => alert('Closed'),
-};
-
-
 export const WithIcon: StoryFn<React.ComponentProps<typeof Modal>> = (args) => <Modal   {...args}/>
 WithIcon.args = {
   show: false,

@@ -48,7 +48,7 @@ const Template: StoryFn<React.ComponentProps<typeof CardContainer> & {
   rotateZ: number;
 }> = ({ translateX, translateY, translateZ, rotateX, rotateY, rotateZ, ...args }) => (
   <CardContainer {...args}>
-    <CardBody className="'relative border items-center justify-center transition-all duration-200 ease-linear'">
+    <CardBody className="'relative border p-4 items-center justify-center transition-all duration-200 ease-linear'">
       <CardItem
         translateX={translateX}
         translateY={translateY}
@@ -56,7 +56,7 @@ const Template: StoryFn<React.ComponentProps<typeof CardContainer> & {
         rotateX={rotateX}
         rotateY={rotateY}
         rotateZ={rotateZ}
-        className="text-center border"
+        className="text-center p-4 border"
       >
         Interactive 3D Card
       </CardItem>
@@ -66,8 +66,8 @@ const Template: StoryFn<React.ComponentProps<typeof CardContainer> & {
 
 export const Default = Template.bind({});
 Default.args = {
-  className: 'relative items-center justify-center transition-all duration-200 ease-linear',
-  containerClassName: 'max-w-sm',
+  className: 'relative items-center p-4 justify-center transition-all duration-200 ease-linear',
+  containerClassName: 'max-w-sm p-4 transition-all',
   children: 'Hover to see the 3D effect!',
   translateX: 30,
   translateY: 15,
