@@ -1,4 +1,4 @@
-const base = require('@lensshare/ui/tailwind-preset');
+const base = require('../tailwind-preset');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

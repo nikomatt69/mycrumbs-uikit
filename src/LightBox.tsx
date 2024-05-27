@@ -1,6 +1,5 @@
 import type { FC } from 'react';
 
-import { PLACEHOLDER_IMAGE } from '@lensshare/data/constants';
 
 import { Modal } from './Modal';
 
@@ -18,7 +17,7 @@ export const LightBox: FC<LightBoxProps> = ({ onClose, show, url }) => {
         className="max-h-screen rounded-xl"
         height={1000}
         onClick={onClose}
-        src={url || PLACEHOLDER_IMAGE}
+        src={url || ''}
         width={1000}
       />
     </Modal>

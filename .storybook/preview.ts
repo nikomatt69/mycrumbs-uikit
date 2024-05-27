@@ -1,8 +1,8 @@
 /** @type { import('@storybook/react').Preview } */
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors');
-import '@lensshare/ui/tailwind.config.js';
-import '@lensshare/ui/styles.css' // replace with the name of your tailwind css file
+import './tailwind.config.js';
+import '../styles.css' // replace with the name of your tailwind css file
 const preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },

@@ -3,20 +3,22 @@
   "display": "Base",
   "compilerOptions": {
     "allowJs": true,
-    "composite": false,
+ 
     "esModuleInterop": true,
+    "lib": ["DOM", "DOM.Iterable", "ES6","ESNext"],
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "noEmit": true,
+    
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
+    
     "target": "ESNext"
   },
   "exclude": ["node_modules"]

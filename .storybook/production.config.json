@@ -6,5 +6,5 @@
   "zip": true,
   "storybookBuildDir": "storybook-static",
   
-  "storybookBaseDir": "@lensshare/ui"
+  "storybookBaseDir": "./"
 }

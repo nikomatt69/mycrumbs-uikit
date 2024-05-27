@@ -1,730 +1,14 @@
 {
   "announcedBuild": {
-    "id": "6654e4b00df4216f99cc941e",
-    "number": 22,
+    "id": "6654f2bf89ed48be23827806",
+    "number": 26,
     "status": "PUBLISHED",
     "autoAcceptChanges": false,
     "app": {
       "id": "663a6564311e0ec20c42bab9",
       "turboSnapAvailability": "UNAVAILABLE"
     },
-    "storybookUrl": "https://663a6564311e0ec20c42bab9-dvgdtgrtoa.chromatic.com/"
-  },
-  "build": {
-    "id": "6654e4b00df4216f99cc941e",
-    "number": 22,
-    "status": "PENDING",
-    "autoAcceptChanges": false,
-    "app": {
-      "manageUrl": "https://www.chromatic.com/manage?appId=663a6564311e0ec20c42bab9",
-      "setupUrl": "https://www.chromatic.com/setup?appId=663a6564311e0ec20c42bab9",
-      "account": {
-        "exceededThreshold": false,
-        "paymentRequired": false,
-        "billingUrl": "https://www.chromatic.com/billing?accountId=663a64fa36de21a012925978"
-      },
-      "repository": {
-        "provider": "github"
-      }
-    },
-    "storybookUrl": "https://663a6564311e0ec20c42bab9-dvgdtgrtoa.chromatic.com/",
-    "specCount": 42,
-    "componentCount": 13,
-    "testCount": 42,
-    "changeCount": 42,
-    "errorCount": 0,
-    "actualTestCount": 42,
-    "actualCaptureCount": 42,
-    "inheritedCaptureCount": 0,
-    "interactionTestFailuresCount": 0,
-    "webUrl": "https://www.chromatic.com/build?appId=663a6564311e0ec20c42bab9&number=22",
-    "browsers": [
-      {
-        "browser": "chrome"
-      }
-    ],
-    "features": {
-      "uiTests": true,
-      "uiReview": true
-    },
-    "turboSnapEnabled": null,
-    "wasLimited": false,
-    "tests": [
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "With Icon",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Large Primary",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Outline Danger",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Black",
-          "component": {
-            "name": "Components/Button",
-            "displayName": "Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Card",
-            "displayName": "Card"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Card",
-            "displayName": "Card"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "With Custom Element",
-          "component": {
-            "name": "Components/Card",
-            "displayName": "Card"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Rounded",
-          "component": {
-            "name": "Components/Card",
-            "displayName": "Card"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/CardContainer",
-            "displayName": "CardContainer"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Interactive 3 D",
-          "component": {
-            "name": "Components/CardContainer",
-            "displayName": "CardContainer"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Grid",
-            "displayName": "Grid"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Grid",
-            "displayName": "Grid"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Custom Spacing",
-          "component": {
-            "name": "Components/Grid",
-            "displayName": "Grid"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Help Tooltip",
-            "displayName": "Help Tooltip"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Help Tooltip",
-            "displayName": "Help Tooltip"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Image",
-            "displayName": "Image"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Image",
-            "displayName": "Image"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Custom Icon Size",
-          "component": {
-            "name": "Components/Image",
-            "displayName": "Image"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Different Placement",
-          "component": {
-            "name": "Components/Image",
-            "displayName": "Image"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Input",
-            "displayName": "Input"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Input",
-            "displayName": "Input"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "With Prefix And Icons",
-          "component": {
-            "name": "Components/Input",
-            "displayName": "Input"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Different Placement",
-          "component": {
-            "name": "Components/Input",
-            "displayName": "Input"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Select Dropdown",
-            "displayName": "Select Dropdown"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Select Dropdown",
-            "displayName": "Select Dropdown"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Custom Style",
-          "component": {
-            "name": "Components/Select Dropdown",
-            "displayName": "Select Dropdown"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Spinner",
-            "displayName": "Spinner"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Spinner",
-            "displayName": "Spinner"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Primary",
-          "component": {
-            "name": "Components/Spinner",
-            "displayName": "Spinner"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Large Danger",
-          "component": {
-            "name": "Components/Spinner",
-            "displayName": "Spinner"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Tab Button",
-            "displayName": "Tab Button"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/TextArea",
-            "displayName": "TextArea"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/TextArea",
-            "displayName": "TextArea"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "With Label",
-          "component": {
-            "name": "Components/TextArea",
-            "displayName": "TextArea"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Disabled",
-          "component": {
-            "name": "Components/TextArea",
-            "displayName": "TextArea"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Toggle Switch",
-            "displayName": "Toggle Switch"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Default",
-          "component": {
-            "name": "Components/Toggle Switch",
-            "displayName": "Toggle Switch"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "With Label",
-          "component": {
-            "name": "Components/Toggle Switch",
-            "displayName": "Toggle Switch"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Disabled",
-          "component": {
-            "name": "Components/Toggle Switch",
-            "displayName": "Toggle Switch"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      },
-      {
-        "spec": {
-          "name": "Template",
-          "component": {
-            "name": "Components/Tooltip",
-            "displayName": "Tooltip"
-          }
-        },
-        "parameters": {
-          "viewport": 1200,
-          "viewportIsDefault": true
-        },
-        "mode": {
-          "name": "1200px"
-        }
-      }
-    ],
-    "inProgressCount": 0,
-    "completedAt": 1716839648258
+    "storybookUrl": "https://663a6564311e0ec20c42bab9-uhwbapvwcp.chromatic.com/"
   },
   "configuration": {
     "configFile": "chromatic.config.json",
@@ -736,144 +20,119 @@
     "storybookBaseDir": "@lensshare/ui"
   },
   "environment": {},
-  "exitCode": 1,
-  "exitCodeKey": "BUILD_HAS_CHANGES",
+  "exitCode": 23,
+  "exitCodeKey": "STORYBOOK_BROKEN",
   "fileInfo": {
     "lengths": [
       {
-        "pathname": "104.62bf3f96.iframe.bundle.js",
-        "contentLength": 96616,
-        "knownAs": "104.62bf3f96.iframe.bundle.js"
+        "pathname": "149.e1176f6d.iframe.bundle.js",
+        "contentLength": 45259,
+        "knownAs": "149.e1176f6d.iframe.bundle.js"
       },
       {
-        "pathname": "104.62bf3f96.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 251,
-        "knownAs": "104.62bf3f96.iframe.bundle.js.LICENSE.txt"
+        "pathname": "284.6e1fba88.iframe.bundle.js",
+        "contentLength": 216938,
+        "knownAs": "284.6e1fba88.iframe.bundle.js"
       },
       {
-        "pathname": "118.8fb11fa9.iframe.bundle.js",
-        "contentLength": 446,
-        "knownAs": "118.8fb11fa9.iframe.bundle.js"
+        "pathname": "286.181698dc.iframe.bundle.js",
+        "contentLength": 936,
+        "knownAs": "286.181698dc.iframe.bundle.js"
       },
       {
-        "pathname": "129.4ad074f7.iframe.bundle.js",
-        "contentLength": 1761992,
-        "knownAs": "129.4ad074f7.iframe.bundle.js"
+        "pathname": "328.0b43f3db.iframe.bundle.js",
+        "contentLength": 2085036,
+        "knownAs": "328.0b43f3db.iframe.bundle.js"
       },
       {
-        "pathname": "129.4ad074f7.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 1509,
-        "knownAs": "129.4ad074f7.iframe.bundle.js.LICENSE.txt"
+        "pathname": "328.0b43f3db.iframe.bundle.js.LICENSE.txt",
+        "contentLength": 991,
+        "knownAs": "328.0b43f3db.iframe.bundle.js.LICENSE.txt"
       },
       {
-        "pathname": "129.4ad074f7.iframe.bundle.js.map",
-        "contentLength": 836881,
-        "knownAs": "129.4ad074f7.iframe.bundle.js.map"
+        "pathname": "328.0b43f3db.iframe.bundle.js.map",
+        "contentLength": 838386,
+        "knownAs": "328.0b43f3db.iframe.bundle.js.map"
       },
       {
-        "pathname": "136.84432b7a.iframe.bundle.js",
-        "contentLength": 1671,
-        "knownAs": "136.84432b7a.iframe.bundle.js"
+        "pathname": "408.c73457b7.iframe.bundle.js",
+        "contentLength": 27612,
+        "knownAs": "408.c73457b7.iframe.bundle.js"
       },
       {
-        "pathname": "242.b2d297cd.iframe.bundle.js",
-        "contentLength": 142833,
-        "knownAs": "242.b2d297cd.iframe.bundle.js"
+        "pathname": "433.d389f9f7.iframe.bundle.js",
+        "contentLength": 440,
+        "knownAs": "433.d389f9f7.iframe.bundle.js"
       },
       {
-        "pathname": "242.b2d297cd.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 123,
-        "knownAs": "242.b2d297cd.iframe.bundle.js.LICENSE.txt"
+        "pathname": "570.5af27920.iframe.bundle.js",
+        "contentLength": 77936,
+        "knownAs": "570.5af27920.iframe.bundle.js"
       },
       {
-        "pathname": "286.b9467b3f.iframe.bundle.js",
-        "contentLength": 938,
-        "knownAs": "286.b9467b3f.iframe.bundle.js"
+        "pathname": "609.7afef5f3.iframe.bundle.js",
+        "contentLength": 845157,
+        "knownAs": "609.7afef5f3.iframe.bundle.js"
       },
       {
-        "pathname": "399.b086bbd7.iframe.bundle.js",
-        "contentLength": 3936352,
-        "knownAs": "399.b086bbd7.iframe.bundle.js"
-      },
-      {
-        "pathname": "399.b086bbd7.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 3227,
-        "knownAs": "399.b086bbd7.iframe.bundle.js.LICENSE.txt"
-      },
-      {
-        "pathname": "458.56a58958.iframe.bundle.js",
-        "contentLength": 845167,
-        "knownAs": "458.56a58958.iframe.bundle.js"
-      },
-      {
-        "pathname": "458.56a58958.iframe.bundle.js.LICENSE.txt",
+        "pathname": "609.7afef5f3.iframe.bundle.js.LICENSE.txt",
         "contentLength": 451,
-        "knownAs": "458.56a58958.iframe.bundle.js.LICENSE.txt"
+        "knownAs": "609.7afef5f3.iframe.bundle.js.LICENSE.txt"
       },
       {
-        "pathname": "5.36d94e6e.iframe.bundle.js",
-        "contentLength": 771,
-        "knownAs": "5.36d94e6e.iframe.bundle.js"
+        "pathname": "648.a968ae64.iframe.bundle.js",
+        "contentLength": 1125,
+        "knownAs": "648.a968ae64.iframe.bundle.js"
       },
       {
-        "pathname": "510.f1fbf6ff.iframe.bundle.js",
-        "contentLength": 39796,
-        "knownAs": "510.f1fbf6ff.iframe.bundle.js"
+        "pathname": "660.c4656a60.iframe.bundle.js",
+        "contentLength": 672,
+        "knownAs": "660.c4656a60.iframe.bundle.js"
       },
       {
-        "pathname": "519.0df4676e.iframe.bundle.js",
-        "contentLength": 643710,
-        "knownAs": "519.0df4676e.iframe.bundle.js"
+        "pathname": "67.81aa0469.iframe.bundle.js",
+        "contentLength": 39850,
+        "knownAs": "67.81aa0469.iframe.bundle.js"
       },
       {
-        "pathname": "519.0df4676e.iframe.bundle.js.LICENSE.txt",
+        "pathname": "681.4be4a82a.iframe.bundle.js",
+        "contentLength": 30811,
+        "knownAs": "681.4be4a82a.iframe.bundle.js"
+      },
+      {
+        "pathname": "739.5eb07d1a.iframe.bundle.js",
+        "contentLength": 1657,
+        "knownAs": "739.5eb07d1a.iframe.bundle.js"
+      },
+      {
+        "pathname": "746.4ffd72c1.iframe.bundle.js",
+        "contentLength": 671681,
+        "knownAs": "746.4ffd72c1.iframe.bundle.js"
+      },
+      {
+        "pathname": "746.4ffd72c1.iframe.bundle.js.LICENSE.txt",
         "contentLength": 547,
-        "knownAs": "519.0df4676e.iframe.bundle.js.LICENSE.txt"
+        "knownAs": "746.4ffd72c1.iframe.bundle.js.LICENSE.txt"
       },
       {
-        "pathname": "519.0df4676e.iframe.bundle.js.map",
-        "contentLength": 362633,
-        "knownAs": "519.0df4676e.iframe.bundle.js.map"
+        "pathname": "746.4ffd72c1.iframe.bundle.js.map",
+        "contentLength": 367488,
+        "knownAs": "746.4ffd72c1.iframe.bundle.js.map"
       },
       {
-        "pathname": "562.339ef365.iframe.bundle.js",
-        "contentLength": 678,
-        "knownAs": "562.339ef365.iframe.bundle.js"
+        "pathname": "788.31168637.iframe.bundle.js",
+        "contentLength": 69644,
+        "knownAs": "788.31168637.iframe.bundle.js"
       },
       {
-        "pathname": "757.a7c24848.iframe.bundle.js",
-        "contentLength": 216948,
-        "knownAs": "757.a7c24848.iframe.bundle.js"
+        "pathname": "842.a5667490.iframe.bundle.js",
+        "contentLength": 83137,
+        "knownAs": "842.a5667490.iframe.bundle.js"
       },
       {
-        "pathname": "800.131fa975.iframe.bundle.js",
-        "contentLength": 31448,
-        "knownAs": "800.131fa975.iframe.bundle.js"
-      },
-      {
-        "pathname": "800.131fa975.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 251,
-        "knownAs": "800.131fa975.iframe.bundle.js.LICENSE.txt"
-      },
-      {
-        "pathname": "946.bd0be903.iframe.bundle.js",
-        "contentLength": 149238,
-        "knownAs": "946.bd0be903.iframe.bundle.js"
-      },
-      {
-        "pathname": "946.bd0be903.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 85,
-        "knownAs": "946.bd0be903.iframe.bundle.js.LICENSE.txt"
-      },
-      {
-        "pathname": "96.7ddc024a.iframe.bundle.js",
-        "contentLength": 83164,
-        "knownAs": "96.7ddc024a.iframe.bundle.js"
-      },
-      {
-        "pathname": "968.b514379b.iframe.bundle.js",
-        "contentLength": 1166,
-        "knownAs": "968.b514379b.iframe.bundle.js"
+        "pathname": "9.12a9f7b1.iframe.bundle.js",
+        "contentLength": 765,
+        "knownAs": "9.12a9f7b1.iframe.bundle.js"
       },
       {
         "pathname": "favicon.svg",
@@ -882,37 +141,37 @@
       },
       {
         "pathname": "iframe.html",
-        "contentLength": 12527,
+        "contentLength": 15242,
         "knownAs": "iframe.html"
       },
       {
         "pathname": "index.html",
-        "contentLength": 4379,
+        "contentLength": 4337,
         "knownAs": "index.html"
       },
       {
         "pathname": "index.json",
-        "contentLength": 11895,
+        "contentLength": 13899,
         "knownAs": "index.json"
       },
       {
-        "pathname": "main.70f41eea.iframe.bundle.js",
-        "contentLength": 115411,
-        "knownAs": "main.70f41eea.iframe.bundle.js"
+        "pathname": "main.d11b713b.iframe.bundle.js",
+        "contentLength": 110644,
+        "knownAs": "main.d11b713b.iframe.bundle.js"
       },
       {
         "pathname": "project.json",
-        "contentLength": 1539,
+        "contentLength": 1532,
         "knownAs": "project.json"
       },
       {
-        "pathname": "runtime~main.878332f6.iframe.bundle.js",
-        "contentLength": 7496,
-        "knownAs": "runtime~main.878332f6.iframe.bundle.js"
+        "pathname": "runtime~main.ccb39adc.iframe.bundle.js",
+        "contentLength": 7543,
+        "knownAs": "runtime~main.ccb39adc.iframe.bundle.js"
       },
       {
         "pathname": "sb-addons/a11y-7/manager-bundle.js",
-        "contentLength": 27476,
+        "contentLength": 27769,
         "knownAs": "sb-addons/a11y-7/manager-bundle.js"
       },
       {
@@ -922,7 +181,7 @@
       },
       {
         "pathname": "sb-addons/backgrounds-10/manager-bundle.js",
-        "contentLength": 13394,
+        "contentLength": 13459,
         "knownAs": "sb-addons/backgrounds-10/manager-bundle.js"
       },
       {
@@ -932,7 +191,7 @@
       },
       {
         "pathname": "sb-addons/chromatic-com-storybook-11/manager-bundle.js",
-        "contentLength": 565518,
+        "contentLength": 568304,
         "knownAs": "sb-addons/chromatic-com-storybook-11/manager-bundle.js"
       },
       {
@@ -942,7 +201,7 @@
       },
       {
         "pathname": "sb-addons/controls-6/manager-bundle.js",
-        "contentLength": 371858,
+        "contentLength": 364130,
         "knownAs": "sb-addons/controls-6/manager-bundle.js"
       },
       {
@@ -952,7 +211,7 @@
       },
       {
         "pathname": "sb-addons/essentials-actions-3/manager-bundle.js",
-        "contentLength": 40558,
+        "contentLength": 41051,
         "knownAs": "sb-addons/essentials-actions-3/manager-bundle.js"
       },
       {
@@ -962,7 +221,7 @@
       },
       {
         "pathname": "sb-addons/essentials-measure-4/manager-bundle.js",
-        "contentLength": 6138,
+        "contentLength": 6203,
         "knownAs": "sb-addons/essentials-measure-4/manager-bundle.js"
       },
       {
@@ -972,7 +231,7 @@
       },
       {
         "pathname": "sb-addons/essentials-outline-5/manager-bundle.js",
-        "contentLength": 6180,
+        "contentLength": 6245,
         "knownAs": "sb-addons/essentials-outline-5/manager-bundle.js"
       },
       {
@@ -982,7 +241,7 @@
       },
       {
         "pathname": "sb-addons/interactions-12/manager-bundle.js",
-        "contentLength": 242169,
+        "contentLength": 226410,
         "knownAs": "sb-addons/interactions-12/manager-bundle.js"
       },
       {
@@ -992,7 +251,7 @@
       },
       {
         "pathname": "sb-addons/links-2/manager-bundle.js",
-        "contentLength": 837,
+        "contentLength": 891,
         "knownAs": "sb-addons/links-2/manager-bundle.js"
       },
       {
@@ -1002,7 +261,7 @@
       },
       {
         "pathname": "sb-addons/onboarding-1/manager-bundle.js",
-        "contentLength": 314363,
+        "contentLength": 295958,
         "knownAs": "sb-addons/onboarding-1/manager-bundle.js"
       },
       {
@@ -1012,7 +271,7 @@
       },
       {
         "pathname": "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js",
-        "contentLength": 2847,
+        "contentLength": 3025,
         "knownAs": "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js"
       },
       {
@@ -1022,7 +281,7 @@
       },
       {
         "pathname": "sb-addons/toolbars-8/manager-bundle.js",
-        "contentLength": 5092,
+        "contentLength": 5157,
         "knownAs": "sb-addons/toolbars-8/manager-bundle.js"
       },
       {
@@ -1032,7 +291,7 @@
       },
       {
         "pathname": "sb-addons/viewport-9/manager-bundle.js",
-        "contentLength": 13670,
+        "contentLength": 13735,
         "knownAs": "sb-addons/viewport-9/manager-bundle.js"
       },
       {
@@ -1066,48 +325,48 @@
         "knownAs": "sb-common-assets/nunito-sans-regular.woff2"
       },
       {
-        "pathname": "sb-manager/WithTooltip-Y7J54OF7-CEHQ77YF.js",
+        "pathname": "sb-manager/WithTooltip-KJL26V4Q-5LS5AN27.js",
         "contentLength": 196,
-        "knownAs": "sb-manager/WithTooltip-Y7J54OF7-CEHQ77YF.js"
+        "knownAs": "sb-manager/WithTooltip-KJL26V4Q-5LS5AN27.js"
       },
       {
-        "pathname": "sb-manager/chunk-FEE35O7J.js",
-        "contentLength": 58229,
-        "knownAs": "sb-manager/chunk-FEE35O7J.js"
+        "pathname": "sb-manager/chunk-6MUDAGZR.js",
+        "contentLength": 377279,
+        "knownAs": "sb-manager/chunk-6MUDAGZR.js"
       },
       {
-        "pathname": "sb-manager/chunk-GFFGH77H.js",
-        "contentLength": 336904,
-        "knownAs": "sb-manager/chunk-GFFGH77H.js"
+        "pathname": "sb-manager/chunk-B3YDJJJH.js",
+        "contentLength": 718398,
+        "knownAs": "sb-manager/chunk-B3YDJJJH.js"
       },
       {
-        "pathname": "sb-manager/chunk-KCHUFUTG.js",
-        "contentLength": 581864,
-        "knownAs": "sb-manager/chunk-KCHUFUTG.js"
+        "pathname": "sb-manager/chunk-BLWCBWKL.js",
+        "contentLength": 58032,
+        "knownAs": "sb-manager/chunk-BLWCBWKL.js"
       },
       {
-        "pathname": "sb-manager/chunk-S4VOIVUE.js",
-        "contentLength": 718650,
-        "knownAs": "sb-manager/chunk-S4VOIVUE.js"
+        "pathname": "sb-manager/chunk-GUVK2GTO.js",
+        "contentLength": 147483,
+        "knownAs": "sb-manager/chunk-GUVK2GTO.js"
       },
       {
-        "pathname": "sb-manager/chunk-XCO5HRLK.js",
-        "contentLength": 147212,
-        "knownAs": "sb-manager/chunk-XCO5HRLK.js"
+        "pathname": "sb-manager/chunk-ZR5JZWHI.js",
+        "contentLength": 6949,
+        "knownAs": "sb-manager/chunk-ZR5JZWHI.js"
       },
       {
-        "pathname": "sb-manager/chunk-XP3HGWTR.js",
-        "contentLength": 6839,
-        "knownAs": "sb-manager/chunk-XP3HGWTR.js"
+        "pathname": "sb-manager/chunk-ZSZOX6GO.js",
+        "contentLength": 645408,
+        "knownAs": "sb-manager/chunk-ZSZOX6GO.js"
       },
       {
-        "pathname": "sb-manager/formatter-B5HCVTEV-7DCBOGO6.js",
+        "pathname": "sb-manager/formatter-2WMMO6ZP-JI7RHVTW.js",
         "contentLength": 224076,
-        "knownAs": "sb-manager/formatter-B5HCVTEV-7DCBOGO6.js"
+        "knownAs": "sb-manager/formatter-2WMMO6ZP-JI7RHVTW.js"
       },
       {
         "pathname": "sb-manager/globals-module-info.js",
-        "contentLength": 8859,
+        "contentLength": 9141,
         "knownAs": "sb-manager/globals-module-info.js"
       },
       {
@@ -1131,9 +390,9 @@
         "knownAs": "sb-manager/runtime.js"
       },
       {
-        "pathname": "sb-manager/syntaxhighlighter-JOJW2KGS-VF6EEVPI.js",
+        "pathname": "sb-manager/syntaxhighlighter-BP7B2CQK-WOJYHKQR.js",
         "contentLength": 318,
-        "knownAs": "sb-manager/syntaxhighlighter-JOJW2KGS-VF6EEVPI.js"
+        "knownAs": "sb-manager/syntaxhighlighter-BP7B2CQK-WOJYHKQR.js"
       },
       {
         "pathname": "sb-preview/globals.js",
@@ -1142,115 +401,110 @@
       },
       {
         "pathname": "sb-preview/runtime.js",
-        "contentLength": 329339,
+        "contentLength": 335128,
         "knownAs": "sb-preview/runtime.js"
       },
       {
-        "pathname": "stories-Button-stories.e1b54eba.iframe.bundle.js",
-        "contentLength": 8608,
-        "knownAs": "stories-Button-stories.e1b54eba.iframe.bundle.js"
+        "pathname": "stories-Button-stories.d7cd9f82.iframe.bundle.js",
+        "contentLength": 8690,
+        "knownAs": "stories-Button-stories.d7cd9f82.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Card-stories.13162619.iframe.bundle.js",
-        "contentLength": 5858,
-        "knownAs": "stories-Card-stories.13162619.iframe.bundle.js"
+        "pathname": "stories-Card-stories.a416ab0e.iframe.bundle.js",
+        "contentLength": 6755,
+        "knownAs": "stories-Card-stories.a416ab0e.iframe.bundle.js"
       },
       {
-        "pathname": "stories-CardContainer-stories.0a5b139f.iframe.bundle.js",
-        "contentLength": 8865,
-        "knownAs": "stories-CardContainer-stories.0a5b139f.iframe.bundle.js"
+        "pathname": "stories-CardContainer-stories.bb7e9478.iframe.bundle.js",
+        "contentLength": 8850,
+        "knownAs": "stories-CardContainer-stories.bb7e9478.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Grid-stories.dd184e73.iframe.bundle.js",
-        "contentLength": 5808,
-        "knownAs": "stories-Grid-stories.dd184e73.iframe.bundle.js"
+        "pathname": "stories-Grid-stories.4c211f2d.iframe.bundle.js",
+        "contentLength": 7197,
+        "knownAs": "stories-Grid-stories.4c211f2d.iframe.bundle.js"
       },
       {
-        "pathname": "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js",
-        "contentLength": 6156,
-        "knownAs": "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js"
+        "pathname": "stories-HelpTooltip-stories.08baf423.iframe.bundle.js",
+        "contentLength": 5006,
+        "knownAs": "stories-HelpTooltip-stories.08baf423.iframe.bundle.js"
       },
       {
-        "pathname": "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js.LICENSE.txt",
-        "contentLength": 251,
-        "knownAs": "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js.LICENSE.txt"
+        "pathname": "stories-Image-stories.e6e8e7eb.iframe.bundle.js",
+        "contentLength": 4346,
+        "knownAs": "stories-Image-stories.e6e8e7eb.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Image-stories.e8536eee.iframe.bundle.js",
-        "contentLength": 7872,
-        "knownAs": "stories-Image-stories.e8536eee.iframe.bundle.js"
+        "pathname": "stories-Input-stories.b0aa35f6.iframe.bundle.js",
+        "contentLength": 17122,
+        "knownAs": "stories-Input-stories.b0aa35f6.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Input-stories.50c5590d.iframe.bundle.js",
-        "contentLength": 17094,
-        "knownAs": "stories-Input-stories.50c5590d.iframe.bundle.js"
+        "pathname": "stories-Modal-stories.7e26441a.iframe.bundle.js",
+        "contentLength": 13942,
+        "knownAs": "stories-Modal-stories.7e26441a.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Select-stories.f348654b.iframe.bundle.js",
-        "contentLength": 4630,
-        "knownAs": "stories-Select-stories.f348654b.iframe.bundle.js"
+        "pathname": "stories-Select-stories.5fbcf972.iframe.bundle.js",
+        "contentLength": 4616,
+        "knownAs": "stories-Select-stories.5fbcf972.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Spinner-stories.cdf05e59.iframe.bundle.js",
-        "contentLength": 5520,
-        "knownAs": "stories-Spinner-stories.cdf05e59.iframe.bundle.js"
+        "pathname": "stories-Spinner-stories.4027bf70.iframe.bundle.js",
+        "contentLength": 5506,
+        "knownAs": "stories-Spinner-stories.4027bf70.iframe.bundle.js"
       },
       {
-        "pathname": "stories-TabButton-stories.67952a93.iframe.bundle.js",
-        "contentLength": 3929,
-        "knownAs": "stories-TabButton-stories.67952a93.iframe.bundle.js"
+        "pathname": "stories-TabButton-stories.909a2675.iframe.bundle.js",
+        "contentLength": 3911,
+        "knownAs": "stories-TabButton-stories.909a2675.iframe.bundle.js"
       },
       {
-        "pathname": "stories-TextArea-stories.40c75a54.iframe.bundle.js",
-        "contentLength": 5815,
-        "knownAs": "stories-TextArea-stories.40c75a54.iframe.bundle.js"
+        "pathname": "stories-TextArea-stories.4190c228.iframe.bundle.js",
+        "contentLength": 5797,
+        "knownAs": "stories-TextArea-stories.4190c228.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Toggle-stories.0b031ffc.iframe.bundle.js",
-        "contentLength": 18139,
-        "knownAs": "stories-Toggle-stories.0b031ffc.iframe.bundle.js"
+        "pathname": "stories-Toggle-stories.305809d0.iframe.bundle.js",
+        "contentLength": 5017,
+        "knownAs": "stories-Toggle-stories.305809d0.iframe.bundle.js"
       },
       {
-        "pathname": "stories-Tooltip-stories.c1ea7240.iframe.bundle.js",
-        "contentLength": 3322,
-        "knownAs": "stories-Tooltip-stories.c1ea7240.iframe.bundle.js"
+        "pathname": "stories-Tooltip-stories.fb66daa1.iframe.bundle.js",
+        "contentLength": 3312,
+        "knownAs": "stories-Tooltip-stories.fb66daa1.iframe.bundle.js"
       }
     ],
     "paths": [
-      "104.62bf3f96.iframe.bundle.js",
-      "104.62bf3f96.iframe.bundle.js.LICENSE.txt",
-      "118.8fb11fa9.iframe.bundle.js",
-      "129.4ad074f7.iframe.bundle.js",
-      "129.4ad074f7.iframe.bundle.js.LICENSE.txt",
-      "129.4ad074f7.iframe.bundle.js.map",
-      "136.84432b7a.iframe.bundle.js",
-      "242.b2d297cd.iframe.bundle.js",
-      "242.b2d297cd.iframe.bundle.js.LICENSE.txt",
-      "286.b9467b3f.iframe.bundle.js",
-      "399.b086bbd7.iframe.bundle.js",
-      "399.b086bbd7.iframe.bundle.js.LICENSE.txt",
-      "458.56a58958.iframe.bundle.js",
-      "458.56a58958.iframe.bundle.js.LICENSE.txt",
-      "5.36d94e6e.iframe.bundle.js",
-      "510.f1fbf6ff.iframe.bundle.js",
-      "519.0df4676e.iframe.bundle.js",
-      "519.0df4676e.iframe.bundle.js.LICENSE.txt",
-      "519.0df4676e.iframe.bundle.js.map",
-      "562.339ef365.iframe.bundle.js",
-      "757.a7c24848.iframe.bundle.js",
-      "800.131fa975.iframe.bundle.js",
-      "800.131fa975.iframe.bundle.js.LICENSE.txt",
-      "946.bd0be903.iframe.bundle.js",
-      "946.bd0be903.iframe.bundle.js.LICENSE.txt",
-      "96.7ddc024a.iframe.bundle.js",
-      "968.b514379b.iframe.bundle.js",
+      "149.e1176f6d.iframe.bundle.js",
+      "284.6e1fba88.iframe.bundle.js",
+      "286.181698dc.iframe.bundle.js",
+      "328.0b43f3db.iframe.bundle.js",
+      "328.0b43f3db.iframe.bundle.js.LICENSE.txt",
+      "328.0b43f3db.iframe.bundle.js.map",
+      "408.c73457b7.iframe.bundle.js",
+      "433.d389f9f7.iframe.bundle.js",
+      "570.5af27920.iframe.bundle.js",
+      "609.7afef5f3.iframe.bundle.js",
+      "609.7afef5f3.iframe.bundle.js.LICENSE.txt",
+      "648.a968ae64.iframe.bundle.js",
+      "660.c4656a60.iframe.bundle.js",
+      "67.81aa0469.iframe.bundle.js",
+      "681.4be4a82a.iframe.bundle.js",
+      "739.5eb07d1a.iframe.bundle.js",
+      "746.4ffd72c1.iframe.bundle.js",
+      "746.4ffd72c1.iframe.bundle.js.LICENSE.txt",
+      "746.4ffd72c1.iframe.bundle.js.map",
+      "788.31168637.iframe.bundle.js",
+      "842.a5667490.iframe.bundle.js",
+      "9.12a9f7b1.iframe.bundle.js",
       "favicon.svg",
       "iframe.html",
       "index.html",
       "index.json",
-      "main.70f41eea.iframe.bundle.js",
+      "main.d11b713b.iframe.bundle.js",
       "project.json",
-      "runtime~main.878332f6.iframe.bundle.js",
+      "runtime~main.ccb39adc.iframe.bundle.js",
       "sb-addons/a11y-7/manager-bundle.js",
       "sb-addons/a11y-7/manager-bundle.js.LEGAL.txt",
       "sb-addons/backgrounds-10/manager-bundle.js",
@@ -1282,134 +536,129 @@
       "sb-common-assets/nunito-sans-bold.woff2",
       "sb-common-assets/nunito-sans-italic.woff2",
       "sb-common-assets/nunito-sans-regular.woff2",
-      "sb-manager/WithTooltip-Y7J54OF7-CEHQ77YF.js",
-      "sb-manager/chunk-FEE35O7J.js",
-      "sb-manager/chunk-GFFGH77H.js",
-      "sb-manager/chunk-KCHUFUTG.js",
-      "sb-manager/chunk-S4VOIVUE.js",
-      "sb-manager/chunk-XCO5HRLK.js",
-      "sb-manager/chunk-XP3HGWTR.js",
-      "sb-manager/formatter-B5HCVTEV-7DCBOGO6.js",
+      "sb-manager/WithTooltip-KJL26V4Q-5LS5AN27.js",
+      "sb-manager/chunk-6MUDAGZR.js",
+      "sb-manager/chunk-B3YDJJJH.js",
+      "sb-manager/chunk-BLWCBWKL.js",
+      "sb-manager/chunk-GUVK2GTO.js",
+      "sb-manager/chunk-ZR5JZWHI.js",
+      "sb-manager/chunk-ZSZOX6GO.js",
+      "sb-manager/formatter-2WMMO6ZP-JI7RHVTW.js",
       "sb-manager/globals-module-info.js",
       "sb-manager/globals-runtime.js",
       "sb-manager/globals.js",
       "sb-manager/index.js",
       "sb-manager/runtime.js",
-      "sb-manager/syntaxhighlighter-JOJW2KGS-VF6EEVPI.js",
+      "sb-manager/syntaxhighlighter-BP7B2CQK-WOJYHKQR.js",
       "sb-preview/globals.js",
       "sb-preview/runtime.js",
-      "stories-Button-stories.e1b54eba.iframe.bundle.js",
-      "stories-Card-stories.13162619.iframe.bundle.js",
-      "stories-CardContainer-stories.0a5b139f.iframe.bundle.js",
-      "stories-Grid-stories.dd184e73.iframe.bundle.js",
-      "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js",
-      "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js.LICENSE.txt",
-      "stories-Image-stories.e8536eee.iframe.bundle.js",
-      "stories-Input-stories.50c5590d.iframe.bundle.js",
-      "stories-Select-stories.f348654b.iframe.bundle.js",
-      "stories-Spinner-stories.cdf05e59.iframe.bundle.js",
-      "stories-TabButton-stories.67952a93.iframe.bundle.js",
-      "stories-TextArea-stories.40c75a54.iframe.bundle.js",
-      "stories-Toggle-stories.0b031ffc.iframe.bundle.js",
-      "stories-Tooltip-stories.c1ea7240.iframe.bundle.js"
+      "stories-Button-stories.d7cd9f82.iframe.bundle.js",
+      "stories-Card-stories.a416ab0e.iframe.bundle.js",
+      "stories-CardContainer-stories.bb7e9478.iframe.bundle.js",
+      "stories-Grid-stories.4c211f2d.iframe.bundle.js",
+      "stories-HelpTooltip-stories.08baf423.iframe.bundle.js",
+      "stories-Image-stories.e6e8e7eb.iframe.bundle.js",
+      "stories-Input-stories.b0aa35f6.iframe.bundle.js",
+      "stories-Modal-stories.7e26441a.iframe.bundle.js",
+      "stories-Select-stories.5fbcf972.iframe.bundle.js",
+      "stories-Spinner-stories.4027bf70.iframe.bundle.js",
+      "stories-TabButton-stories.909a2675.iframe.bundle.js",
+      "stories-TextArea-stories.4190c228.iframe.bundle.js",
+      "stories-Toggle-stories.305809d0.iframe.bundle.js",
+      "stories-Tooltip-stories.fb66daa1.iframe.bundle.js"
     ],
-    "total": 13645444,
+    "total": 9963380,
     "hashes": {
-      "104.62bf3f96.iframe.bundle.js": "c6e94fff0608d8f1",
-      "104.62bf3f96.iframe.bundle.js.LICENSE.txt": "e84448b37215c8d1",
-      "118.8fb11fa9.iframe.bundle.js": "c46ade63ffdf89fe",
-      "129.4ad074f7.iframe.bundle.js": "410f7320415aa2ad",
-      "129.4ad074f7.iframe.bundle.js.LICENSE.txt": "5ae8136b7abf9d53",
-      "129.4ad074f7.iframe.bundle.js.map": "8df39ddbb1a3c8ee",
-      "136.84432b7a.iframe.bundle.js": "0aa0a6de857e28c2",
-      "242.b2d297cd.iframe.bundle.js": "16c93ad90b240a6d",
-      "242.b2d297cd.iframe.bundle.js.LICENSE.txt": "5d29ed76dd10e7e5",
-      "286.b9467b3f.iframe.bundle.js": "4c760f1b07f4c7f9",
-      "399.b086bbd7.iframe.bundle.js": "b7de2f4652ba2d44",
-      "399.b086bbd7.iframe.bundle.js.LICENSE.txt": "be39a723690e49d1",
-      "458.56a58958.iframe.bundle.js": "f5318b12939f1ed9",
-      "458.56a58958.iframe.bundle.js.LICENSE.txt": "693ce40339da795b",
-      "5.36d94e6e.iframe.bundle.js": "4371af345bee6be5",
-      "510.f1fbf6ff.iframe.bundle.js": "af7db97a011bd548",
-      "519.0df4676e.iframe.bundle.js": "99a58d56bd8b5ce5",
-      "519.0df4676e.iframe.bundle.js.LICENSE.txt": "8bfcb64f2904ca37",
-      "519.0df4676e.iframe.bundle.js.map": "b87cc5104921ac34",
-      "562.339ef365.iframe.bundle.js": "0f670b8d7e47111e",
-      "757.a7c24848.iframe.bundle.js": "a91896b1c162fb13",
-      "800.131fa975.iframe.bundle.js": "5a902d887a4f39a5",
-      "800.131fa975.iframe.bundle.js.LICENSE.txt": "e84448b37215c8d1",
-      "946.bd0be903.iframe.bundle.js": "72445148da7d4edf",
-      "946.bd0be903.iframe.bundle.js.LICENSE.txt": "ef04c6d38b5c696d",
-      "96.7ddc024a.iframe.bundle.js": "0ff965b04375b7b6",
-      "968.b514379b.iframe.bundle.js": "4ed87cada625b6ae",
+      "149.e1176f6d.iframe.bundle.js": "163f28b3d8b4fa14",
+      "284.6e1fba88.iframe.bundle.js": "1e878d7282c7b43d",
+      "286.181698dc.iframe.bundle.js": "499a7ca603d6db47",
+      "328.0b43f3db.iframe.bundle.js": "bab07f6a67dac17c",
+      "328.0b43f3db.iframe.bundle.js.LICENSE.txt": "f4c4c2ad57adb5ed",
+      "328.0b43f3db.iframe.bundle.js.map": "2aa3d13aec3e8e08",
+      "408.c73457b7.iframe.bundle.js": "1a9cfd28e5df3628",
+      "433.d389f9f7.iframe.bundle.js": "db9034f52e6a1fb2",
+      "570.5af27920.iframe.bundle.js": "6b22c647206dbde9",
+      "609.7afef5f3.iframe.bundle.js": "5331020597942ca0",
+      "609.7afef5f3.iframe.bundle.js.LICENSE.txt": "693ce40339da795b",
+      "648.a968ae64.iframe.bundle.js": "fd760bc703a21c2a",
+      "660.c4656a60.iframe.bundle.js": "955227305868a62e",
+      "67.81aa0469.iframe.bundle.js": "be6423d8d6377ba3",
+      "681.4be4a82a.iframe.bundle.js": "0e9cf18036602198",
+      "739.5eb07d1a.iframe.bundle.js": "814beda59cd68da6",
+      "746.4ffd72c1.iframe.bundle.js": "f0e1781fddc26f32",
+      "746.4ffd72c1.iframe.bundle.js.LICENSE.txt": "8bfcb64f2904ca37",
+      "746.4ffd72c1.iframe.bundle.js.map": "0c0ed9f48152988b",
+      "788.31168637.iframe.bundle.js": "ec77aefca471c887",
+      "842.a5667490.iframe.bundle.js": "34dab97bef1a7456",
+      "9.12a9f7b1.iframe.bundle.js": "512c06956ced7243",
       "favicon.svg": "c838c315c746b6e6",
-      "iframe.html": "e5e5693887101751",
-      "index.html": "90c868d04c1a7ca3",
-      "index.json": "b490fb50e2860f60",
-      "main.70f41eea.iframe.bundle.js": "12c94feed54b86bb",
-      "project.json": "8fd717e518b674b8",
-      "runtime~main.878332f6.iframe.bundle.js": "d1e29dc71f1f1169",
-      "sb-addons/a11y-7/manager-bundle.js": "55363e7714efac43",
+      "iframe.html": "72fec2ddfe987d00",
+      "index.html": "87ba133d2443e6ef",
+      "index.json": "e501f3e027443bcf",
+      "main.d11b713b.iframe.bundle.js": "a4bbfb764021e136",
+      "project.json": "7f20f64a6d18a0c8",
+      "runtime~main.ccb39adc.iframe.bundle.js": "df34ed6d822d458c",
+      "sb-addons/a11y-7/manager-bundle.js": "4d9615e4cea4b38f",
       "sb-addons/a11y-7/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/backgrounds-10/manager-bundle.js": "4876ceb9f2174fc1",
+      "sb-addons/backgrounds-10/manager-bundle.js": "da0885baea02ccd7",
       "sb-addons/backgrounds-10/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/chromatic-com-storybook-11/manager-bundle.js": "cd97bc80680fa425",
-      "sb-addons/chromatic-com-storybook-11/manager-bundle.js.LEGAL.txt": "ea775d538668aaaa",
-      "sb-addons/controls-6/manager-bundle.js": "dfc740e276ffc511",
+      "sb-addons/chromatic-com-storybook-11/manager-bundle.js": "01986bc4418a04f0",
+      "sb-addons/chromatic-com-storybook-11/manager-bundle.js.LEGAL.txt": "e0b06841bf35354f",
+      "sb-addons/controls-6/manager-bundle.js": "eef39a3ffaa3f391",
       "sb-addons/controls-6/manager-bundle.js.LEGAL.txt": "8a8b3af0e390b5bc",
-      "sb-addons/essentials-actions-3/manager-bundle.js": "ed3850ed52d213d4",
+      "sb-addons/essentials-actions-3/manager-bundle.js": "06da0da5c5617597",
       "sb-addons/essentials-actions-3/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/essentials-measure-4/manager-bundle.js": "b1db4e0520dde3e1",
+      "sb-addons/essentials-measure-4/manager-bundle.js": "3a5fcb106cfd62a9",
       "sb-addons/essentials-measure-4/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/essentials-outline-5/manager-bundle.js": "1d42514969a676bd",
+      "sb-addons/essentials-outline-5/manager-bundle.js": "98f79ecf72eb2b77",
       "sb-addons/essentials-outline-5/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/interactions-12/manager-bundle.js": "ff8e732772a80cf0",
+      "sb-addons/interactions-12/manager-bundle.js": "b238e18f0de536cf",
       "sb-addons/interactions-12/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/links-2/manager-bundle.js": "3d836764f86c50ea",
+      "sb-addons/links-2/manager-bundle.js": "87e7a1082107654f",
       "sb-addons/links-2/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/onboarding-1/manager-bundle.js": "592b819aacd91348",
+      "sb-addons/onboarding-1/manager-bundle.js": "7c230cf123b22e52",
       "sb-addons/onboarding-1/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js": "0b38789da7fb99d3",
+      "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js": "40f52a1f219994df",
       "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/toolbars-8/manager-bundle.js": "e5796ddffa7f931a",
+      "sb-addons/toolbars-8/manager-bundle.js": "7ff995d59f9e5074",
       "sb-addons/toolbars-8/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
-      "sb-addons/viewport-9/manager-bundle.js": "bcac64ecd75a287c",
+      "sb-addons/viewport-9/manager-bundle.js": "3b51ccb05ae58dec",
       "sb-addons/viewport-9/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
       "sb-common-assets/fonts.css": "5fe607dcb520f0b7",
       "sb-common-assets/nunito-sans-bold-italic.woff2": "d64464b3594b3fb9",
       "sb-common-assets/nunito-sans-bold.woff2": "0bd5b61b7fb7f7d5",
       "sb-common-assets/nunito-sans-italic.woff2": "b7807d9de055e9a0",
       "sb-common-assets/nunito-sans-regular.woff2": "6687b7be04c2debe",
-      "sb-manager/WithTooltip-Y7J54OF7-CEHQ77YF.js": "1fd2940942007c28",
-      "sb-manager/chunk-FEE35O7J.js": "0f94bc2ff556bed1",
-      "sb-manager/chunk-GFFGH77H.js": "5057e3678523840b",
-      "sb-manager/chunk-KCHUFUTG.js": "165d748de9c0cdeb",
-      "sb-manager/chunk-S4VOIVUE.js": "4bede8ef9b4fc8ae",
-      "sb-manager/chunk-XCO5HRLK.js": "d1dc14cf0655d990",
-      "sb-manager/chunk-XP3HGWTR.js": "c4434b2c5239ca5b",
-      "sb-manager/formatter-B5HCVTEV-7DCBOGO6.js": "13a51a1a2f69a5a1",
-      "sb-manager/globals-module-info.js": "680c797eefa8e456",
-      "sb-manager/globals-runtime.js": "c37b731a1a393692",
+      "sb-manager/WithTooltip-KJL26V4Q-5LS5AN27.js": "7560a5102b48fbd7",
+      "sb-manager/chunk-6MUDAGZR.js": "0da264a6646a5198",
+      "sb-manager/chunk-B3YDJJJH.js": "686d5367483efd7d",
+      "sb-manager/chunk-BLWCBWKL.js": "0c256942755b6a90",
+      "sb-manager/chunk-GUVK2GTO.js": "f2e5e89c8feba7b4",
+      "sb-manager/chunk-ZR5JZWHI.js": "d26cd2195cbc700c",
+      "sb-manager/chunk-ZSZOX6GO.js": "16662361b04ad277",
+      "sb-manager/formatter-2WMMO6ZP-JI7RHVTW.js": "472ad85a45d0b5a4",
+      "sb-manager/globals-module-info.js": "b0744c8575b85689",
+      "sb-manager/globals-runtime.js": "9c3dbbc0f8070634",
       "sb-manager/globals.js": "6f03e9a7e34d0329",
-      "sb-manager/index.js": "82d22b563b026bc4",
-      "sb-manager/runtime.js": "548280e47a6dbb07",
-      "sb-manager/syntaxhighlighter-JOJW2KGS-VF6EEVPI.js": "7ee9fc5105d62011",
+      "sb-manager/index.js": "b63aa20a0ce65561",
+      "sb-manager/runtime.js": "bf68d09072755ddb",
+      "sb-manager/syntaxhighlighter-BP7B2CQK-WOJYHKQR.js": "83e3fb65e8cf181d",
       "sb-preview/globals.js": "88d9682d5fa2647b",
-      "sb-preview/runtime.js": "93471ffab5f19b9c",
-      "stories-Button-stories.e1b54eba.iframe.bundle.js": "d9c1628003aaceb4",
-      "stories-Card-stories.13162619.iframe.bundle.js": "1b29aa1295f501ef",
-      "stories-CardContainer-stories.0a5b139f.iframe.bundle.js": "762918623bf5b92d",
-      "stories-Grid-stories.dd184e73.iframe.bundle.js": "33c336b0036ed28e",
-      "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js": "5495a6c963d81ea6",
-      "stories-HelpTooltip-stories.8802cfd9.iframe.bundle.js.LICENSE.txt": "e84448b37215c8d1",
-      "stories-Image-stories.e8536eee.iframe.bundle.js": "8a7e93af9fc152d5",
-      "stories-Input-stories.50c5590d.iframe.bundle.js": "e5910d3e519748ea",
-      "stories-Select-stories.f348654b.iframe.bundle.js": "a524bafc628ed89f",
-      "stories-Spinner-stories.cdf05e59.iframe.bundle.js": "3bc0157c31289eac",
-      "stories-TabButton-stories.67952a93.iframe.bundle.js": "49a4a5ef66b9abac",
-      "stories-TextArea-stories.40c75a54.iframe.bundle.js": "9a3778a41f338a98",
-      "stories-Toggle-stories.0b031ffc.iframe.bundle.js": "89e9614b5b31a855",
-      "stories-Tooltip-stories.c1ea7240.iframe.bundle.js": "fa55e8396f5dd5c8"
+      "sb-preview/runtime.js": "3996dd102fd49b4c",
+      "stories-Button-stories.d7cd9f82.iframe.bundle.js": "96ec78ac7082e214",
+      "stories-Card-stories.a416ab0e.iframe.bundle.js": "dbfede2335597d6a",
+      "stories-CardContainer-stories.bb7e9478.iframe.bundle.js": "5c765ed9f2822f19",
+      "stories-Grid-stories.4c211f2d.iframe.bundle.js": "870fe1b7e70817f5",
+      "stories-HelpTooltip-stories.08baf423.iframe.bundle.js": "d24c92f4d2a28517",
+      "stories-Image-stories.e6e8e7eb.iframe.bundle.js": "12fb9578269ed76f",
+      "stories-Input-stories.b0aa35f6.iframe.bundle.js": "44f4dfc0def57218",
+      "stories-Modal-stories.7e26441a.iframe.bundle.js": "f3b4367eaf499ae2",
+      "stories-Select-stories.5fbcf972.iframe.bundle.js": "e6159eaeee3db0de",
+      "stories-Spinner-stories.4027bf70.iframe.bundle.js": "c13d4c4a4000ec12",
+      "stories-TabButton-stories.909a2675.iframe.bundle.js": "670e05e2699b7402",
+      "stories-TextArea-stories.4190c228.iframe.bundle.js": "24c636d1eca00c55",
+      "stories-Toggle-stories.305809d0.iframe.bundle.js": "18897c2365ddfeb3",
+      "stories-Tooltip-stories.fb66daa1.iframe.bundle.js": "575c29e00b2607c4"
     }
   },
   "flags": {
@@ -1426,21 +675,20 @@
   "git": {
     "version": "2.44.0",
     "gitUserEmail": "nicola.mattioli.95@gmail.com",
-    "uncommittedHash": "08f1f9f8e25ee33ddf282c14e526344913d30888",
-    "commit": "57931e7785d5f6edcf65cc6e336baef3eb0281f1",
-    "committedAt": 1716838797000,
+    "uncommittedHash": "3862d19c767f46f43ca42fce656fa353a4f14d5a",
+    "commit": "7cfe131489b025d3070ba8e78cc9651e48f56d95",
+    "committedAt": 1716839967000,
     "committerEmail": "nicola.mattioli.95@gmail.com",
     "committerName": "nikomatt69",
     "branch": "57931e7",
     "slug": "nikomatt69/mycrumbs-uikit",
     "fromCI": false,
     "parentCommits": [
-      "57931e7785d5f6edcf65cc6e336baef3eb0281f1"
+      "7cfe131489b025d3070ba8e78cc9651e48f56d95"
     ]
   },
   "input": [],
   "isOnboarding": false,
-  "isPublishOnly": false,
   "options": {
     "fromCI": false,
     "inAction": false,
@@ -1486,6 +734,8 @@
       "@headlessui/react": "2.0.3",
       "@heroicons/react": "^2.0.18",
       "@hookform/resolvers": "^3.3.2",
+      "@huddle01/react": "^2.0.14",
+      "@radix-ui/react-collapsible": "^1.0.3",
       "@radix-ui/react-icons": "^1.3.0",
       "@radix-ui/react-popover": "^1.0.7",
       "@radix-ui/react-slider": "^1.1.2",
@@ -1502,9 +752,14 @@
       "@storybook/nextjs": "^8.0.9",
       "@storybook/react": "^8.0.9",
       "@storybook/react-webpack5": "^8.0.10",
+      "@tailwindcss/aspect-ratio": "^0.4.2",
+      "@tailwindcss/forms": "^0.5.7",
       "@tippyjs/react": "^4.2.6",
+      "autoprefixer": "^10.4.19",
       "clsx": "^2.0.0",
+      "framer-motion": "^11.2.6",
       "next": "^14.0.1",
+      "next-themes": "^0.3.0",
       "postcss-loader": "^8.1.1",
       "react": "^18.2.0",
       "react-hook-form": "^7.47.0",
@@ -1533,6 +788,7 @@
     "_id": "mycrumbs-uikit@1.0.0"
   },
   "packagePath": "/Users/nikoemme/ui/package.json",
+  "rebuildForBuildId": "6654e701caf45e646bdacc93",
   "runtimeMetadata": {
     "nodePlatform": "darwin",
     "nodeVersion": "19.9.0",
@@ -1540,20 +796,21 @@
     "packageManagerVersion": "1.22.19"
   },
   "sentinelUrls": [
-    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-dvgdtgrtoa/.chromatic/files-copied.695717340.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T195324Z&X-Amz-Expires=1800&X-Amz-Signature=099f971163b4debd2f93cafea802f8296e4cf883ebf34646844586575a53df10&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/files-copied.695990997.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1800&X-Amz-Signature=ccc6a9a45c0f236681d2ccfce848d1c5b909dc16ba775b020b1050956d37dcba&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1980&X-Amz-Signature=2ed782797c74792a28f0e236daf4bf0ad22ddadaa8c190e82f82c112201040e4&X-Amz-SignedHeaders=host&x-id=GetObject"
   ],
-  "sessionId": "0b432ccb-322e-4a15-814a-2228d796757a",
+  "sessionId": "605d9149-57e4-4426-9937-55a8deeec866",
   "sourceDir": "storybook-static",
-  "startedAt": 1716839613452,
+  "startedAt": 1716843360053,
   "storybook": {
     "viewLayer": null,
     "version": null,
     "addons": [],
     "builder": null
   },
-  "storybookUrl": "https://663a6564311e0ec20c42bab9-dvgdtgrtoa.chromatic.com/",
-  "task": "snapshot",
-  "uploadedBytes": 0,
-  "uploadedFiles": 0,
+  "storybookUrl": "https://663a6564311e0ec20c42bab9-uhwbapvwcp.chromatic.com/",
+  "task": "verify",
+  "uploadedBytes": 2481834,
+  "uploadedFiles": 68,
   "userError": true
 }

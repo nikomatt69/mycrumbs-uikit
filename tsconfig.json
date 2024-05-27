@@ -1,3 +1,27 @@
-{
-  "extends": ["./react.tsconfig.json" , "./base.tsconfig.json"],
-}
+
+  {
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Base",
+    "compilerOptions": {
+      "allowJs": true,
+      "composite": false,
+      "declaration": true,
+      "declarationMap": true,
+      "jsx": "preserve",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "inlineSources": false,
+      "isolatedModules": true,
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveWatchOutput": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "target": "ESNext"
+    },
+    "exclude": ["node_modules"]
+  }
