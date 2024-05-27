@@ -4,7 +4,6 @@
   "buildScriptName": "build-storybook",
   "debug": true,
   "zip": true,
-  "storybookBuildDir": "storybook-static",
-  
-  "storybookBaseDir": "./"
+  "storybookBuildDir": "storybook-static"
 }
+  

@@ -1,14 +1,13 @@
 {
   "announcedBuild": {
-    "id": "6654f2bf89ed48be23827806",
-    "number": 26,
-    "status": "PUBLISHED",
+    "id": "6654f4e023b565f3727ab8cc",
+    "number": 27,
+    "status": "ANNOUNCED",
     "autoAcceptChanges": false,
     "app": {
       "id": "663a6564311e0ec20c42bab9",
       "turboSnapAvailability": "UNAVAILABLE"
-    },
-    "storybookUrl": "https://663a6564311e0ec20c42bab9-uhwbapvwcp.chromatic.com/"
+    }
   },
   "configuration": {
     "configFile": "chromatic.config.json",
@@ -17,11 +16,11 @@
     "zip": true,
     "buildScriptName": "build-storybook",
     "storybookBuildDir": "storybook-static",
-    "storybookBaseDir": "@lensshare/ui"
+    "storybookBaseDir": "mycrumbs-uikit"
   },
   "environment": {},
-  "exitCode": 23,
-  "exitCodeKey": "STORYBOOK_BROKEN",
+  "exitCode": 255,
+  "exitCodeKey": "UNKNOWN_ERROR",
   "fileInfo": {
     "lengths": [
       {
@@ -596,7 +595,7 @@
       "index.html": "87ba133d2443e6ef",
       "index.json": "e501f3e027443bcf",
       "main.d11b713b.iframe.bundle.js": "a4bbfb764021e136",
-      "project.json": "7f20f64a6d18a0c8",
+      "project.json": "673d1b4da637aaa3",
       "runtime~main.ccb39adc.iframe.bundle.js": "df34ed6d822d458c",
       "sb-addons/a11y-7/manager-bundle.js": "4d9615e4cea4b38f",
       "sb-addons/a11y-7/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
@@ -675,9 +674,9 @@
   "git": {
     "version": "2.44.0",
     "gitUserEmail": "nicola.mattioli.95@gmail.com",
-    "uncommittedHash": "3862d19c767f46f43ca42fce656fa353a4f14d5a",
-    "commit": "7cfe131489b025d3070ba8e78cc9651e48f56d95",
-    "committedAt": 1716839967000,
+    "uncommittedHash": "5c8bcfdd5e24d7fe24df3363ba42bd4b85a50c9a",
+    "commit": "fa2ccdac4dfebd851fb8e317b0a482973fd3e98d",
+    "committedAt": 1716843406000,
     "committerEmail": "nicola.mattioli.95@gmail.com",
     "committerName": "nikomatt69",
     "branch": "57931e7",
@@ -708,7 +707,7 @@
     "zip": true,
     "buildScriptName": "build-storybook",
     "storybookBuildDir": "storybook-static",
-    "storybookBaseDir": "@lensshare/ui",
+    "storybookBaseDir": "mycrumbs-uikit",
     "storybookLogFile": "build-storybook.log",
     "branchName": "",
     "configFile": "chromatic.config.json",
@@ -788,7 +787,6 @@
     "_id": "mycrumbs-uikit@1.0.0"
   },
   "packagePath": "/Users/nikoemme/ui/package.json",
-  "rebuildForBuildId": "6654e701caf45e646bdacc93",
   "runtimeMetadata": {
     "nodePlatform": "darwin",
     "nodeVersion": "19.9.0",
@@ -796,21 +794,20 @@
     "packageManagerVersion": "1.22.19"
   },
   "sentinelUrls": [
-    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/files-copied.695990997.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1800&X-Amz-Signature=ccc6a9a45c0f236681d2ccfce848d1c5b909dc16ba775b020b1050956d37dcba&X-Amz-SignedHeaders=host&x-id=GetObject",
-    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1980&X-Amz-Signature=2ed782797c74792a28f0e236daf4bf0ad22ddadaa8c190e82f82c112201040e4&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-kafpqemzdn/.chromatic/files-copied.696026213.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T210227Z&X-Amz-Expires=1800&X-Amz-Signature=ca84e831eb3e5e09afd826cc0162d7f03f287fd7922a1059f5933cc7a15000d5&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-kafpqemzdn/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T210227Z&X-Amz-Expires=1980&X-Amz-Signature=5f07c8c3f9a140833003723c8ea03f8394624f911e9198ad7afd505e605d5fb0&X-Amz-SignedHeaders=host&x-id=GetObject"
   ],
-  "sessionId": "605d9149-57e4-4426-9937-55a8deeec866",
+  "sessionId": "d9538e4b-ff42-472b-93eb-58712ab825fc",
   "sourceDir": "storybook-static",
-  "startedAt": 1716843360053,
+  "startedAt": 1716843744087,
   "storybook": {
     "viewLayer": null,
     "version": null,
     "addons": [],
     "builder": null
   },
-  "storybookUrl": "https://663a6564311e0ec20c42bab9-uhwbapvwcp.chromatic.com/",
-  "task": "verify",
-  "uploadedBytes": 2481834,
-  "uploadedFiles": 68,
-  "userError": true
+  "task": "upload",
+  "uploadedBytes": 626,
+  "uploadedFiles": 1,
+  "userError": false
 }

@@ -1,169 +1,40 @@
-20:53:13.002  Chromatic CLI v11.4.1
+21:05:52.089  Chromatic CLI v11.4.1
               https://www.chromatic.com/docs/cli 
  
-20:53:13.006  Authenticating with Chromatic 
-20:53:13.006      → Connecting to https://index.chromatic.com
-20:53:13.785  Authenticated with Chromatic
+21:05:52.093  Authenticating with Chromatic 
+21:05:52.093      → Connecting to https://index.chromatic.com
+21:06:00.095  Could not retrieve package info from registry; skipping update check
+21:06:00.096  undefined
+21:06:01.100  Authenticated with Chromatic
                   → Using project token '****************6c80'
-20:53:13.786  Retrieving git information
-20:53:13.846  git info: {"commit":{"commit":"7cfe131489b025d3070ba8e78cc9651e48f56d95","committedAt":1716839967000,"committerEmail":"nicola.mattioli.95@gmail.com","committerName":"nikomatt69"},"branch":"57931e7","fromCI":false}
-20:53:14.620  App firstBuild: %o, lastBuild: %o {"committedAt":1714927575000} {"commit":"7cfe131489b025d3070ba8e78cc9651e48f56d95","committedAt":1716839967000}
-20:53:14.635  Adding last branch build commit 7cfe131489b025d3070ba8e78cc9651e48f56d95 to commits with builds
-20:53:14.635  step: checking 20 up to 1714927575
-20:53:14.635  step: commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95
-20:53:14.635  step: commitsWithoutBuilds:
-20:53:14.635  running git rev-list HEAD       --since 1714927575       -n 20 --not 7cfe131489b025d3070ba8e78cc9651e48f56d95
-20:53:14.649  command output:
-20:53:14.649  step: candidateCommits: , visitedCommitsWithoutBuilds:
-20:53:14.649  step: no candidateCommits; we are done
-20:53:15.803  Final commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95
-20:53:15.803  running git rev-list 7cfe131489b025d3070ba8e78cc9651e48f56d95 --not "7cfe131489b025d3070ba8e78cc9651e48f56d95^@"
-20:53:15.822  command output: 7cfe131489b025d3070ba8e78cc9651e48f56d95
-20:53:15.822  Found parentCommits: 7cfe131489b025d3070ba8e78cc9651e48f56d95
-20:53:16.650  Retrieved git information
-                  → Commit '7cfe131' on branch '57931e7'; found 1 parent build
-20:53:16.650  Collecting Storybook metadata
-20:53:16.652  {}
-20:53:16.652  Collected Storybook metadata
+21:06:01.101  Retrieving git information
+21:06:01.154  git info: {"commit":{"commit":"fa2ccdac4dfebd851fb8e317b0a482973fd3e98d","committedAt":1716843406000,"committerEmail":"nicola.mattioli.95@gmail.com","committerName":"nikomatt69"},"branch":"57931e7","fromCI":false}
+21:06:06.069  App firstBuild: %o, lastBuild: %o {"committedAt":1714927575000} {"commit":"7cfe131489b025d3070ba8e78cc9651e48f56d95","committedAt":1716839967000}
+21:06:06.083  Adding last branch build commit 7cfe131489b025d3070ba8e78cc9651e48f56d95 to commits with builds
+21:06:06.084  step: checking 20 up to 1714927575
+21:06:06.084  step: commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95
+21:06:06.084  step: commitsWithoutBuilds:
+21:06:06.084  running git rev-list HEAD       --since 1714927575       -n 20 --not 7cfe131489b025d3070ba8e78cc9651e48f56d95
+21:06:06.095  command output: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:06.095  step: candidateCommits: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d, visitedCommitsWithoutBuilds: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:08.327  step: newCommitsWithBuilds: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:08.327  step: checking 40 up to 1714927575
+21:06:08.327  step: commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95,fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:08.327  step: commitsWithoutBuilds:
+21:06:08.327  running git rev-list HEAD       --since 1714927575       -n 40 --not 7cfe131489b025d3070ba8e78cc9651e48f56d95 fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:08.338  command output:
+21:06:08.338  step: candidateCommits: , visitedCommitsWithoutBuilds:
+21:06:08.338  step: no candidateCommits; we are done
+21:06:10.711  Final commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95,fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:10.712  running git rev-list 7cfe131489b025d3070ba8e78cc9651e48f56d95 fa2ccdac4dfebd851fb8e317b0a482973fd3e98d --not "7cfe131489b025d3070ba8e78cc9651e48f56d95^@" "fa2ccdac4dfebd851fb8e317b0a482973fd3e98d^@"
+21:06:10.728  command output: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:10.728  Found parentCommits: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
+21:06:14.526  Retrieved git information
+                  → Commit 'fa2ccda' on branch '57931e7'; found 1 parent build
+21:06:14.526  Collecting Storybook metadata
+21:06:14.527  {}
+21:06:14.528  Collected Storybook metadata
                   → ; no supported addons found
-20:53:16.652  Initializing build
-20:53:16.654  Got environment:
+21:06:14.528  Initializing build
+21:06:14.528  Got environment:
               {}
-20:53:18.921  Initialized build
-                  → Build 26 initialized
-20:53:18.922  Publish your built Storybook
-20:53:18.922      → Validating Storybook files
-20:53:18.929  Publishing your built Storybook
-20:53:18.929      → Calculating file hashes
-20:53:18.945  Calculated file hashes in 16ms
-20:53:18.946  Publishing your built Storybook
-20:53:18.946      → Starting publish
-20:53:18.947  Running uploadBuild batch 1 / 1
-20:53:20.735  Adding to zip archive: 149.e1176f6d.iframe.bundle.js
-20:53:20.736  Adding to zip archive: 284.6e1fba88.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 286.181698dc.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 328.0b43f3db.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 328.0b43f3db.iframe.bundle.js.LICENSE.txt
-20:53:20.737  Adding to zip archive: 328.0b43f3db.iframe.bundle.js.map
-20:53:20.737  Adding to zip archive: 408.c73457b7.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 433.d389f9f7.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 570.5af27920.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 609.7afef5f3.iframe.bundle.js
-20:53:20.737  Adding to zip archive: 648.a968ae64.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 660.c4656a60.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 67.81aa0469.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 681.4be4a82a.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 739.5eb07d1a.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 746.4ffd72c1.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 746.4ffd72c1.iframe.bundle.js.map
-20:53:20.738  Adding to zip archive: 788.31168637.iframe.bundle.js
-20:53:20.738  Adding to zip archive: 842.a5667490.iframe.bundle.js
-20:53:20.739  Adding to zip archive: 9.12a9f7b1.iframe.bundle.js
-20:53:20.739  Adding to zip archive: iframe.html
-20:53:20.739  Adding to zip archive: index.html
-20:53:20.739  Adding to zip archive: index.json
-20:53:20.739  Adding to zip archive: main.d11b713b.iframe.bundle.js
-20:53:20.739  Adding to zip archive: project.json
-20:53:20.739  Adding to zip archive: runtime~main.ccb39adc.iframe.bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/a11y-7/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/backgrounds-10/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/chromatic-com-storybook-11/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/chromatic-com-storybook-11/manager-bundle.js.LEGAL.txt
-20:53:20.739  Adding to zip archive: sb-addons/controls-6/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/essentials-actions-3/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/essentials-measure-4/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/essentials-outline-5/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/interactions-12/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/links-2/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/onboarding-1/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/storybook-core-server-presets-0/common-manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/toolbars-8/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-addons/viewport-9/manager-bundle.js
-20:53:20.739  Adding to zip archive: sb-manager/WithTooltip-KJL26V4Q-5LS5AN27.js
-20:53:20.739  Adding to zip archive: sb-manager/chunk-6MUDAGZR.js
-20:53:20.740  Adding to zip archive: sb-manager/chunk-B3YDJJJH.js
-20:53:20.740  Adding to zip archive: sb-manager/chunk-BLWCBWKL.js
-20:53:20.740  Adding to zip archive: sb-manager/chunk-GUVK2GTO.js
-20:53:20.740  Adding to zip archive: sb-manager/chunk-ZR5JZWHI.js
-20:53:20.740  Adding to zip archive: sb-manager/chunk-ZSZOX6GO.js
-20:53:20.740  Adding to zip archive: sb-manager/formatter-2WMMO6ZP-JI7RHVTW.js
-20:53:20.740  Adding to zip archive: sb-manager/globals-module-info.js
-20:53:20.740  Adding to zip archive: sb-manager/globals-runtime.js
-20:53:20.740  Adding to zip archive: sb-manager/index.js
-20:53:20.740  Adding to zip archive: sb-manager/runtime.js
-20:53:20.740  Adding to zip archive: sb-manager/syntaxhighlighter-BP7B2CQK-WOJYHKQR.js
-20:53:20.740  Adding to zip archive: sb-preview/runtime.js
-20:53:20.740  Adding to zip archive: stories-Button-stories.d7cd9f82.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Card-stories.a416ab0e.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-CardContainer-stories.bb7e9478.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Grid-stories.4c211f2d.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-HelpTooltip-stories.08baf423.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Image-stories.e6e8e7eb.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Input-stories.b0aa35f6.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Modal-stories.7e26441a.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Select-stories.5fbcf972.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Spinner-stories.4027bf70.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-TabButton-stories.909a2675.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-TextArea-stories.4190c228.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Toggle-stories.305809d0.iframe.bundle.js
-20:53:20.740  Adding to zip archive: stories-Tooltip-stories.fb66daa1.iframe.bundle.js
-20:53:20.740  Finalizing zip archive
-20:53:21.085  Compression reduced upload size by 75%
-20:53:21.085  Uploading /.chromatic/storybook.zip (2.48 MB)
-20:53:21.091      → [=                   ] 3%
-20:53:21.659      → [==                  ] 11%
-20:53:22.608      → [===                 ] 13%
-20:53:30.385      → [===                 ] 16%
-20:53:41.139      → [====                ] 18%
-20:53:45.100      → [====                ] 21%
-20:53:49.952      → [=====               ] 24%
-20:53:54.572      → [=====               ] 26%
-20:53:58.720      → [======              ] 29%
-20:54:00.580      → [======              ] 32%
-20:54:04.491      → [=======             ] 34%
-20:54:08.270      → [=======             ] 37%
-20:54:13.588      → [========            ] 40%
-20:54:16.138      → [========            ] 42%
-20:54:19.257      → [=========           ] 45%
-20:54:20.449      → [==========          ] 48%
-20:54:21.194      → [==========          ] 50%
-20:54:22.485      → [===========         ] 53%
-20:54:25.890      → [===========         ] 55%
-20:54:28.349      → [============        ] 58%
-20:54:32.956      → [============        ] 61%
-20:54:36.584      → [=============       ] 63%
-20:54:38.872      → [=============       ] 66%
-20:54:44.013      → [==============      ] 69%
-20:54:50.072      → [==============      ] 71%
-20:54:54.149      → [===============     ] 74%
-20:55:01.257      → [===============     ] 77%
-20:55:03.154      → [================    ] 79%
-20:55:04.970      → [================    ] 82%
-20:55:07.985      → [=================   ] 85%
-20:55:11.015      → [=================   ] 87%
-20:55:15.298      → [==================  ] 90%
-20:55:25.483      → [==================  ] 92%
-20:55:28.909      → [=================== ] 95%
-20:55:31.932      → [====================] 98%
-20:55:34.396      → [====================] 100%
-20:55:56.780  Uploaded /.chromatic/storybook.zip (2.48 MB)
-20:55:56.781  Publishing your built Storybook
-20:55:56.781      → Finalizing upload
-20:55:56.782  Waiting for 'files-copied.695990997.txt' sentinel file to appear at https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/files-copied.695990997.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1800&X-Amz-Signature=ccc6a9a45c0f236681d2ccfce848d1c5b909dc16ba775b020b1050956d37dcba&X-Amz-SignedHeaders=host&x-id=GetObject
-20:55:56.795  Waiting for 'zip-unpacked.txt' sentinel file to appear at https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-uhwbapvwcp/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T205321Z&X-Amz-Expires=1980&X-Amz-Signature=2ed782797c74792a28f0e236daf4bf0ad22ddadaa8c190e82f82c112201040e4&X-Amz-SignedHeaders=host&x-id=GetObject
-20:55:57.747  Sentinel file 'files-copied.695990997.txt' OK.
-20:56:00.051  Sentinel file 'zip-unpacked.txt' OK.
-20:56:00.053  Publish complete in 2 minutes 41 seconds
-                  → Uploaded 68 files (2.48 MB), skipped 22 files
-20:56:00.053  Verifying your Storybook
-20:56:00.053      → This may take a few minutes
-20:56:07.925  ✖ Failed to extract stories from your Storybook
-              This is usually a problem with your published Storybook, not with Chromatic.
-              
-              Build and open your Storybook locally and check the browser console for errors.
-              Visit your published Storybook at https://663a6564311e0ec20c42bab9-uhwbapvwcp.chromatic.com/
-              The following error was encountered while running your Storybook:
-              
-              Error: ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: ./.storybook/preview.ts
-20:56:07.925      → Failed to publish build
-20:56:07.963  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
