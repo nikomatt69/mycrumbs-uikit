@@ -30,7 +30,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) {
     const commonStyles = {
-      'border-brand-600 focus:ring-brand-400/50 border': variant === 'primary',
+      'border-brand-700 focus:ring-brand-400/50 border': variant === 'primary',
       'border border-gray-600 focus:ring-gray-400/50': variant === 'secondary',
       'border border-yellow-600 focus:ring-yellow-400/50':
         variant === 'warning',

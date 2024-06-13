@@ -1,40 +1,56 @@
-21:05:52.089  Chromatic CLI v11.4.1
-              https://www.chromatic.com/docs/cli 
- 
-21:05:52.093  Authenticating with Chromatic 
-21:05:52.093      → Connecting to https://index.chromatic.com
-21:06:00.095  Could not retrieve package info from registry; skipping update check
-21:06:00.096  undefined
-21:06:01.100  Authenticated with Chromatic
-                  → Using project token '****************6c80'
-21:06:01.101  Retrieving git information
-21:06:01.154  git info: {"commit":{"commit":"fa2ccdac4dfebd851fb8e317b0a482973fd3e98d","committedAt":1716843406000,"committerEmail":"nicola.mattioli.95@gmail.com","committerName":"nikomatt69"},"branch":"57931e7","fromCI":false}
-21:06:06.069  App firstBuild: %o, lastBuild: %o {"committedAt":1714927575000} {"commit":"7cfe131489b025d3070ba8e78cc9651e48f56d95","committedAt":1716839967000}
-21:06:06.083  Adding last branch build commit 7cfe131489b025d3070ba8e78cc9651e48f56d95 to commits with builds
-21:06:06.084  step: checking 20 up to 1714927575
-21:06:06.084  step: commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95
-21:06:06.084  step: commitsWithoutBuilds:
-21:06:06.084  running git rev-list HEAD       --since 1714927575       -n 20 --not 7cfe131489b025d3070ba8e78cc9651e48f56d95
-21:06:06.095  command output: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:06.095  step: candidateCommits: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d, visitedCommitsWithoutBuilds: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:08.327  step: newCommitsWithBuilds: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:08.327  step: checking 40 up to 1714927575
-21:06:08.327  step: commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95,fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:08.327  step: commitsWithoutBuilds:
-21:06:08.327  running git rev-list HEAD       --since 1714927575       -n 40 --not 7cfe131489b025d3070ba8e78cc9651e48f56d95 fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:08.338  command output:
-21:06:08.338  step: candidateCommits: , visitedCommitsWithoutBuilds:
-21:06:08.338  step: no candidateCommits; we are done
-21:06:10.711  Final commitsWithBuilds: 7cfe131489b025d3070ba8e78cc9651e48f56d95,fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:10.712  running git rev-list 7cfe131489b025d3070ba8e78cc9651e48f56d95 fa2ccdac4dfebd851fb8e317b0a482973fd3e98d --not "7cfe131489b025d3070ba8e78cc9651e48f56d95^@" "fa2ccdac4dfebd851fb8e317b0a482973fd3e98d^@"
-21:06:10.728  command output: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:10.728  Found parentCommits: fa2ccdac4dfebd851fb8e317b0a482973fd3e98d
-21:06:14.526  Retrieved git information
-                  → Commit 'fa2ccda' on branch '57931e7'; found 1 parent build
-21:06:14.526  Collecting Storybook metadata
-21:06:14.527  {}
-21:06:14.528  Collected Storybook metadata
-                  → ; no supported addons found
-21:06:14.528  Initializing build
-21:06:14.528  Got environment:
-              {}
+
+21:27:12.453  {"errors":[{"message":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer","locations":[{"line":3,"column":5}],"path":["cliToken"],"extensions":{"code":"INTERNAL_SERVER_ERROR"}}]} GraphQL errors
+21:27:12.453      → Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+
+21:27:12.456  ✖ Failed to authenticate
+              
+              Error communicating with the Chromatic API. Check if your Chromatic client is up-to-date.
+              Service status updates are provided at https://status.chromatic.com
+              
+              → INTERNAL_SERVER_ERROR: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+              
+              If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
+              You can also email the team at support@chromatic.com if chat is not an option.
+              
+              Please provide us with the above CLI output and the following info:
+              {
+                "timestamp": "2024-05-27T21:27:12.454Z",
+                "sessionId": "c9b6ec1e-960f-4902-93c7-1875a3feecad",
+                "nodePlatform": "darwin",
+                "nodeVersion": "19.9.0",
+                "packageName": "chromatic",
+                "packageVersion": "11.4.1",
+                "flags": {
+                  "interactive": false
+                },
+                "extraOptions": {
+                  "configFile": "chromatic.config.json",
+                  "projectId": "Project:chpt_5c2c8d5cb406c80",
+                  "autoAcceptChanges": false,
+                  "exitOnceUploaded": false,
+                  "exitZeroOnChanges": true,
+                  "forceRebuild": true,
+                  "fromCI": false,
+                  "interactive": false,
+                  "isLocalBuild": true,
+                  "skip": false,
+                  "skipUpdateCheck": true,
+                  "experimental_abortSignal": {}
+                },
+                "configuration": {
+                  "configFile": "chromatic.config.json",
+                  "projectId": "Project:chpt_5c2c8d5cb406c80",
+                  "onlyChanged": true,
+                  "debug": true,
+                  "zip": true,
+                  "buildScriptName": "build-storybook",
+                  "storybookBuildDir": "storybook-static"
+                },
+                "isLocalBuild": true,
+                "buildScript": "storybook build",
+                "exitCode": 202,
+                "exitCodeKey": "GRAPHQL_ERROR",
+                "errorType": "GraphQLError",
+                "errorMessage": "✖ Failed to authenticate"
+              }
+21:27:12.464  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json

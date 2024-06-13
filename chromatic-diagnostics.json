@@ -1,13 +1,842 @@
 {
   "announcedBuild": {
-    "id": "6654f4e023b565f3727ab8cc",
-    "number": 27,
-    "status": "ANNOUNCED",
+    "id": "6654f76bbcedf6e7b02c09d1",
+    "number": 29,
+    "status": "PUBLISHED",
     "autoAcceptChanges": false,
     "app": {
       "id": "663a6564311e0ec20c42bab9",
       "turboSnapAvailability": "UNAVAILABLE"
-    }
+    },
+    "storybookUrl": "https://663a6564311e0ec20c42bab9-ztzpmzmcwy.chromatic.com/"
+  },
+  "build": {
+    "id": "6654f76bbcedf6e7b02c09d1",
+    "number": 29,
+    "status": "PENDING",
+    "autoAcceptChanges": false,
+    "app": {
+      "manageUrl": "https://www.chromatic.com/manage?appId=663a6564311e0ec20c42bab9",
+      "setupUrl": "https://www.chromatic.com/setup?appId=663a6564311e0ec20c42bab9",
+      "account": {
+        "exceededThreshold": false,
+        "paymentRequired": false,
+        "billingUrl": "https://www.chromatic.com/billing?accountId=663a64fa36de21a012925978"
+      },
+      "repository": {
+        "provider": "github"
+      }
+    },
+    "storybookUrl": "https://663a6564311e0ec20c42bab9-ztzpmzmcwy.chromatic.com/",
+    "specCount": 49,
+    "componentCount": 14,
+    "testCount": 49,
+    "changeCount": 49,
+    "errorCount": 0,
+    "actualTestCount": 46,
+    "actualCaptureCount": 49,
+    "inheritedCaptureCount": 0,
+    "interactionTestFailuresCount": 0,
+    "webUrl": "https://www.chromatic.com/build?appId=663a6564311e0ec20c42bab9&number=29",
+    "browsers": [
+      {
+        "browser": "chrome"
+      }
+    ],
+    "features": {
+      "uiTests": true,
+      "uiReview": true
+    },
+    "turboSnapEnabled": null,
+    "wasLimited": false,
+    "tests": [
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Icon",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Large Primary",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Outline Danger",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Black",
+          "component": {
+            "name": "Components/Button",
+            "displayName": "Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Card",
+            "displayName": "Card"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Card",
+            "displayName": "Card"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Custom Element",
+          "component": {
+            "name": "Components/Card",
+            "displayName": "Card"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Rounded",
+          "component": {
+            "name": "Components/Card",
+            "displayName": "Card"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/CardContainer",
+            "displayName": "CardContainer"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Interactive 3 D",
+          "component": {
+            "name": "Components/CardContainer",
+            "displayName": "CardContainer"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Grid",
+            "displayName": "Grid"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Grid",
+            "displayName": "Grid"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Custom Spacing",
+          "component": {
+            "name": "Components/Grid",
+            "displayName": "Grid"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Help Tooltip",
+            "displayName": "Help Tooltip"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Help Tooltip",
+            "displayName": "Help Tooltip"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Image",
+            "displayName": "Image"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Image",
+            "displayName": "Image"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Custom Icon Size",
+          "component": {
+            "name": "Components/Image",
+            "displayName": "Image"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Different Placement",
+          "component": {
+            "name": "Components/Image",
+            "displayName": "Image"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Input",
+            "displayName": "Input"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Input",
+            "displayName": "Input"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Prefix And Icons",
+          "component": {
+            "name": "Components/Input",
+            "displayName": "Input"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Different Placement",
+          "component": {
+            "name": "Components/Input",
+            "displayName": "Input"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Icon",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Dynamic Content",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Accessibility Test",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Nested Modal",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Form Modal",
+          "component": {
+            "name": "Components/Modal",
+            "displayName": "Modal"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Select Dropdown",
+            "displayName": "Select Dropdown"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Select Dropdown",
+            "displayName": "Select Dropdown"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Custom Style",
+          "component": {
+            "name": "Components/Select Dropdown",
+            "displayName": "Select Dropdown"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Spinner",
+            "displayName": "Spinner"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Spinner",
+            "displayName": "Spinner"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Primary",
+          "component": {
+            "name": "Components/Spinner",
+            "displayName": "Spinner"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Large Danger",
+          "component": {
+            "name": "Components/Spinner",
+            "displayName": "Spinner"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Tab Button",
+            "displayName": "Tab Button"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/TextArea",
+            "displayName": "TextArea"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/TextArea",
+            "displayName": "TextArea"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Label",
+          "component": {
+            "name": "Components/TextArea",
+            "displayName": "TextArea"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Disabled",
+          "component": {
+            "name": "Components/TextArea",
+            "displayName": "TextArea"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Toggle Switch",
+            "displayName": "Toggle Switch"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Default",
+          "component": {
+            "name": "Components/Toggle Switch",
+            "displayName": "Toggle Switch"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "With Label",
+          "component": {
+            "name": "Components/Toggle Switch",
+            "displayName": "Toggle Switch"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Disabled",
+          "component": {
+            "name": "Components/Toggle Switch",
+            "displayName": "Toggle Switch"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      },
+      {
+        "spec": {
+          "name": "Template",
+          "component": {
+            "name": "Components/Tooltip",
+            "displayName": "Tooltip"
+          }
+        },
+        "parameters": {
+          "viewport": 1200,
+          "viewportIsDefault": true
+        },
+        "mode": {
+          "name": "1200px"
+        }
+      }
+    ],
+    "inProgressCount": 0,
+    "completedAt": 1716845268191
   },
   "configuration": {
     "configFile": "chromatic.config.json",
@@ -15,12 +844,11 @@
     "debug": true,
     "zip": true,
     "buildScriptName": "build-storybook",
-    "storybookBuildDir": "storybook-static",
-    "storybookBaseDir": "mycrumbs-uikit"
+    "storybookBuildDir": "storybook-static"
   },
   "environment": {},
-  "exitCode": 255,
-  "exitCodeKey": "UNKNOWN_ERROR",
+  "exitCode": 1,
+  "exitCodeKey": "BUILD_HAS_CHANGES",
   "fileInfo": {
     "lengths": [
       {
@@ -154,9 +982,9 @@
         "knownAs": "index.json"
       },
       {
-        "pathname": "main.d11b713b.iframe.bundle.js",
-        "contentLength": 110644,
-        "knownAs": "main.d11b713b.iframe.bundle.js"
+        "pathname": "main.726566cf.iframe.bundle.js",
+        "contentLength": 110329,
+        "knownAs": "main.726566cf.iframe.bundle.js"
       },
       {
         "pathname": "project.json",
@@ -501,7 +1329,7 @@
       "iframe.html",
       "index.html",
       "index.json",
-      "main.d11b713b.iframe.bundle.js",
+      "main.726566cf.iframe.bundle.js",
       "project.json",
       "runtime~main.ccb39adc.iframe.bundle.js",
       "sb-addons/a11y-7/manager-bundle.js",
@@ -566,7 +1394,7 @@
       "stories-Toggle-stories.305809d0.iframe.bundle.js",
       "stories-Tooltip-stories.fb66daa1.iframe.bundle.js"
     ],
-    "total": 9963380,
+    "total": 9963065,
     "hashes": {
       "149.e1176f6d.iframe.bundle.js": "163f28b3d8b4fa14",
       "284.6e1fba88.iframe.bundle.js": "1e878d7282c7b43d",
@@ -591,11 +1419,11 @@
       "842.a5667490.iframe.bundle.js": "34dab97bef1a7456",
       "9.12a9f7b1.iframe.bundle.js": "512c06956ced7243",
       "favicon.svg": "c838c315c746b6e6",
-      "iframe.html": "72fec2ddfe987d00",
+      "iframe.html": "9e4c0ad8e7231a50",
       "index.html": "87ba133d2443e6ef",
       "index.json": "e501f3e027443bcf",
-      "main.d11b713b.iframe.bundle.js": "a4bbfb764021e136",
-      "project.json": "673d1b4da637aaa3",
+      "main.726566cf.iframe.bundle.js": "13be262197d49399",
+      "project.json": "1766943fde4151c9",
       "runtime~main.ccb39adc.iframe.bundle.js": "df34ed6d822d458c",
       "sb-addons/a11y-7/manager-bundle.js": "4d9615e4cea4b38f",
       "sb-addons/a11y-7/manager-bundle.js.LEGAL.txt": "ef46db3751d8e999",
@@ -674,20 +1502,21 @@
   "git": {
     "version": "2.44.0",
     "gitUserEmail": "nicola.mattioli.95@gmail.com",
-    "uncommittedHash": "5c8bcfdd5e24d7fe24df3363ba42bd4b85a50c9a",
-    "commit": "fa2ccdac4dfebd851fb8e317b0a482973fd3e98d",
-    "committedAt": 1716843406000,
+    "uncommittedHash": "b03f815499e7b81a2c6985fb05bea6a854cfd1d2",
+    "commit": "3df680aa1d4e36d7f336d5676f8b9bf12fa64807",
+    "committedAt": 1716843979000,
     "committerEmail": "nicola.mattioli.95@gmail.com",
     "committerName": "nikomatt69",
     "branch": "57931e7",
     "slug": "nikomatt69/mycrumbs-uikit",
     "fromCI": false,
     "parentCommits": [
-      "7cfe131489b025d3070ba8e78cc9651e48f56d95"
+      "fa2ccdac4dfebd851fb8e317b0a482973fd3e98d"
     ]
   },
   "input": [],
   "isOnboarding": false,
+  "isPublishOnly": false,
   "options": {
     "fromCI": false,
     "inAction": false,
@@ -707,7 +1536,6 @@
     "zip": true,
     "buildScriptName": "build-storybook",
     "storybookBuildDir": "storybook-static",
-    "storybookBaseDir": "mycrumbs-uikit",
     "storybookLogFile": "build-storybook.log",
     "branchName": "",
     "configFile": "chromatic.config.json",
@@ -794,20 +1622,21 @@
     "packageManagerVersion": "1.22.19"
   },
   "sentinelUrls": [
-    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-kafpqemzdn/.chromatic/files-copied.696026213.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T210227Z&X-Amz-Expires=1800&X-Amz-Signature=ca84e831eb3e5e09afd826cc0162d7f03f287fd7922a1059f5933cc7a15000d5&X-Amz-SignedHeaders=host&x-id=GetObject",
-    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-kafpqemzdn/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T210227Z&X-Amz-Expires=1980&X-Amz-Signature=5f07c8c3f9a140833003723c8ea03f8394624f911e9198ad7afd505e605d5fb0&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-ztzpmzmcwy/.chromatic/files-copied.696096982.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T211316Z&X-Amz-Expires=1800&X-Amz-Signature=e19a8cbd0fb8ffcb9b351b853823ce2a4b18623ea7d16ffcef5d930957012521&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "https://chromatic-builds.s3.us-west-2.amazonaws.com/663a6564311e0ec20c42bab9-ztzpmzmcwy/.chromatic/zip-unpacked.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAJVVEQEOBEEPXSNNQ%2F20240527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240527T211316Z&X-Amz-Expires=1980&X-Amz-Signature=412d9599631e4c5d7280c7276e7ec6f65859ca3fd37eef5ec4b86daeea68b291&X-Amz-SignedHeaders=host&x-id=GetObject"
   ],
-  "sessionId": "d9538e4b-ff42-472b-93eb-58712ab825fc",
+  "sessionId": "da6043b1-6bb0-4d49-bb73-fe677f4b2a9c",
   "sourceDir": "storybook-static",
-  "startedAt": 1716843744087,
+  "startedAt": 1716845229336,
   "storybook": {
     "viewLayer": null,
     "version": null,
     "addons": [],
     "builder": null
   },
-  "task": "upload",
-  "uploadedBytes": 626,
-  "uploadedFiles": 1,
-  "userError": false
+  "storybookUrl": "https://663a6564311e0ec20c42bab9-ztzpmzmcwy.chromatic.com/",
+  "task": "snapshot",
+  "uploadedBytes": 2481826,
+  "uploadedFiles": 68,
+  "userError": true
 }
