@@ -5,7 +5,7 @@
   "debug": true,
   "zip": true,
 
-  "onlyChanged": true,
-  "storybookBuildDir": "storybook-static",
-  "staticDir": "public"
+
+  "storybookBuildDir": "storybook-static"
+
 }

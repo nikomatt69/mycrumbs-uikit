@@ -1,56 +1,30 @@
-
-21:27:12.453  {"errors":[{"message":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer","locations":[{"line":3,"column":5}],"path":["cliToken"],"extensions":{"code":"INTERNAL_SERVER_ERROR"}}]} GraphQL errors
-21:27:12.453      → Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
-
-21:27:12.456  ✖ Failed to authenticate
-              
-              Error communicating with the Chromatic API. Check if your Chromatic client is up-to-date.
-              Service status updates are provided at https://status.chromatic.com
-              
-              → INTERNAL_SERVER_ERROR: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
-              
-              If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
-              You can also email the team at support@chromatic.com if chat is not an option.
-              
-              Please provide us with the above CLI output and the following info:
-              {
-                "timestamp": "2024-05-27T21:27:12.454Z",
-                "sessionId": "c9b6ec1e-960f-4902-93c7-1875a3feecad",
-                "nodePlatform": "darwin",
-                "nodeVersion": "19.9.0",
-                "packageName": "chromatic",
-                "packageVersion": "11.4.1",
-                "flags": {
-                  "interactive": false
-                },
-                "extraOptions": {
-                  "configFile": "chromatic.config.json",
-                  "projectId": "Project:chpt_5c2c8d5cb406c80",
-                  "autoAcceptChanges": false,
-                  "exitOnceUploaded": false,
-                  "exitZeroOnChanges": true,
-                  "forceRebuild": true,
-                  "fromCI": false,
-                  "interactive": false,
-                  "isLocalBuild": true,
-                  "skip": false,
-                  "skipUpdateCheck": true,
-                  "experimental_abortSignal": {}
-                },
-                "configuration": {
-                  "configFile": "chromatic.config.json",
-                  "projectId": "Project:chpt_5c2c8d5cb406c80",
-                  "onlyChanged": true,
-                  "debug": true,
-                  "zip": true,
-                  "buildScriptName": "build-storybook",
-                  "storybookBuildDir": "storybook-static"
-                },
-                "isLocalBuild": true,
-                "buildScript": "storybook build",
-                "exitCode": 202,
-                "exitCodeKey": "GRAPHQL_ERROR",
-                "errorType": "GraphQLError",
-                "errorMessage": "✖ Failed to authenticate"
-              }
-21:27:12.464  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
+09:50:18.916  Chromatic CLI v11.4.1
+              https://www.chromatic.com/docs/cli 
+ 
+09:50:18.922  Authenticating with Chromatic 
+09:50:18.922      → Connecting to https://index.chromatic.com
+09:50:19.581  Authenticated with Chromatic
+                  → Using project token '****************6c80'
+09:50:19.581  Retrieving git information
+09:50:19.623  git info: {"commit":{"commit":"87b5875dfb279cc09f6a116d59e8bfdfb6d493a6","committedAt":1718315079000,"committerEmail":"nicola.mattioli.95@gmail.com","committerName":"nikomatt69"},"branch":"57931e7","fromCI":false}
+09:50:21.886  App firstBuild: %o, lastBuild: %o {"committedAt":1714927575000} {"commit":"87b5875dfb279cc09f6a116d59e8bfdfb6d493a6","committedAt":1718315079000}
+09:50:21.902  Adding last branch build commit 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6 to commits with builds
+09:50:21.903  step: checking 20 up to 1714927575
+09:50:21.903  step: commitsWithBuilds: 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6
+09:50:21.903  step: commitsWithoutBuilds:
+09:50:21.903  running git rev-list HEAD       --since 1714927575       -n 20 --not 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6
+09:50:21.916  command output:
+09:50:21.916  step: candidateCommits: , visitedCommitsWithoutBuilds:
+09:50:21.916  step: no candidateCommits; we are done
+09:50:23.096  Final commitsWithBuilds: 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6
+09:50:23.096  running git rev-list 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6 --not "87b5875dfb279cc09f6a116d59e8bfdfb6d493a6^@"
+09:50:23.112  command output: 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6
+09:50:23.112  Found parentCommits: 87b5875dfb279cc09f6a116d59e8bfdfb6d493a6
+09:50:24.584  Skipping build
+                  → Skipping rebuild of an already fully passed/accepted build
+09:50:24.585  ℹ Skipping rebuild of an already fully passed/accepted build
+              A build for the same commit as the last build on the branch is considered a rebuild.
+              If the last build is passed or accepted, the rebuild is skipped because it shouldn't change anything.
+              You can override this using the --force-rebuild flag.
+09:50:24.587  Tasks completed
+09:50:24.608  ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json

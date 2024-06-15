@@ -9,9 +9,11 @@
     "start": "ts-node storyscript.js",
     "watch": "nodemon",
     "generate-stories": "node storyscript.js",
+    "storybook-docs": "storybook docs",
     "storybook": "storybook dev -p 6006",
     "build-stories": "storybook build -o ./storybook-static",
     "build-storybook": "storybook build",
+    "build-storybook-docs": "storybook build --docs",
     "chromatic": "npx chromatic --project-token=chpt_5c2c8d5cb406c80"
   },
   "dependencies": {
